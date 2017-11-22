@@ -10,4 +10,4 @@ This is a preview of the left-hand glove (pointing out side ways):
 ![alt tag](https://www.nano.training/3dmodelling/wp-content/uploads/2017/11/Slide189.jpg "Right Hand Glove Bottom View")
 
 This is a preview of the left-hand glove (pointing in upwards):
-![alt tag](https://www.nano.training/3dmodelling/wp-content/uploads/2017/11/Slide90.jpg "Right Hand Glove Bottom View")
+![alt tag](https://www.nano.training/3dmodelling/wp-content/uploads/2017/11/Slide190.jpg "Right Hand Glove Bottom View")
