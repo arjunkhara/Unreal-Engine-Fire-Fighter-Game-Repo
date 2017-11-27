@@ -9,3 +9,7 @@ After clicking ‘Create Project’ this is the screen that appears. This is a b
 
 Organisation is important at the outset itself. Double-click the ‘Starter Content’ folder to reveal the additional folder options. Notice that the folders are arranged in alphabetical order. Right click in the grey area and create a new folder. Label this folder ‘Character’. All character assets will go into this folder. Alternatively, a separate character folder can be created outside the Starter Content folder. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide3.PNG "Organising Folders and Assets")
 
+Once the folders have been setup, open a web browser and navigate to the following URL: https://wiki.unrealengine.com/File:ThirdPerson_FBX.zip and download the zip file. This file contains all the beginners’ assets that will be used in the UE project. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide4.PNG "Accessing UE FBX Assets")
+
+Once downloaded and extracted (unzipped) the folder will contain the following assets which will need importing into UE. Ensure, before importing, that the SK_Mannequin asset is included in the list of items. This will be the main character to build, manipulate, and have perform actions within the game environment. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide5.PNG "Unzipping and Installing FBX Assets")
+
