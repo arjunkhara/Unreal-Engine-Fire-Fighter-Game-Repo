@@ -31,3 +31,7 @@ Toggling between W, E, and R allow the socket to be moved, rotated, and scaled f
 
 The options at the top of view screen, ‘Perspective’, ‘Detail Lighting’, ‘Show’, and ‘LOD Auto’, provide additional options to understand the character. These options help to navigate around the character and add or remove information about the character. For example, the ‘Perspective’ option is used to change how the character is viewed, i.e. from the top, left, right, bottom etc. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide14.PNG "Changing Perspective")
 
+Within the Mesh tab (top right) additional information on clothing, skinning, materials etc is available. Each tab contains its own specific options that correspond to the character, depending on what controls are required over which types of assets, i.e. animation, appearance, anatomy etc. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide15.PNG "Mesh Tab Information")
+
+Within the animations tab at the bottom, there is an Asset Browser that lists all the animations the character can perform. Double-clicking on each, changes the animation on screen and the character begins performing that particular action. To go back to the initial state, click on the back, white arrow. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide16.PNG "Navigating Between Assets")
+
