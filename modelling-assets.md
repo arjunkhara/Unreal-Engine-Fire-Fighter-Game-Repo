@@ -15,4 +15,5 @@ This is a preview of the left-hand glove (pointing in upwards):
 This is a preview of the fire tank (H2O suppressant):
 ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/image-assets/FireTank-H2O.jpg "Fire Tank H2O Suppressant")
 
-
+This is a preview of the electric SUV (Requires CO2 suppressant):
+![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/image-assets/e-Hummer-1.jpg "Electric SUV")
