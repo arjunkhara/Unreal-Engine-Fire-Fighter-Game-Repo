@@ -14,6 +14,8 @@ The Project Programmer is responsible for the integrity of the codebase and debu
 
 The Project Modeller is responsible for the integrity of the models and assets that will be included in the game, and ensure that the models perform as required during animation and procedural development. The Project Modeller will also be responsible for the final delivery of the look and feel of the game.
 
-Project Manager: Arjun Khara
-Project Programmer: Sarah Chalk
-Project Modeller: Daniel Nicholson
+Project Manager: Arjun Khara<br/>
+Project Programmer: Sarah Chalk<br/>
+Project Modeller: Daniel Nicholson<br/>
+
+The project team will meet this Thursday (30 November 2017) and again on Saturday (2 December 2017) to combine all the assets we have modelled so far, and begin to integrate these into Blueprints. We are expecting all modelling to be completed by Thursday evening, 30 November 2017. Saturday, (2 December 2017) will be spent building out the main sequences of the project and for rapid prototyping of the game to address any discrepancies and concerns, as well as to evaluate what works and what needs to be changed.
