@@ -98,3 +98,5 @@ In this example, I have created a door frame and added a point light. The point 
 
 The lightbulb intensity has been set to zero, and the colour has been changed to red. These settings can be accessed in the panel on the right, which activates when the object, in this case the lightbulb, has been clicked on. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide45.PNG "Light Intensity")
 
+I am also adding a sound that will be played when the doors open. To access the sounds library, navigate to StarterContent > Audio, then drag an audio file onto the scene. In this example I am going to add the default Starter Music Cue. In the audio panel (which pops up when the audio element is selected) scroll to the Activation section and ensure that Auto Activate is deselected, so that the sound does not start playing as soon as the scene begins, but only when the door opens. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide46.PNG "Sound Asset")
+
