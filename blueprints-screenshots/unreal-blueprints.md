@@ -78,3 +78,5 @@ Notice that a new red node, titled OnActorBeginOverlap (TriggerVolume) has been 
 
 Click on the blue pin of the Point Light and drag out a connector line. From the dialog box that pops up, type ‘visibility’ into the search bar, then click on Toggle Visibility. Two new nodes are created with connector links between them automatically set up. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide36.PNG "Connected Light to Event")
 
+I have enlarged the Blueprint window here for easier reference and neatened the layout. Notice that the pins are colour and shape-coded, which makes for easy referencing between how each node’s pins connect to the others. In this case, the red event node, titled (OnActoBeginOverlap) has a white triangular pin, as does the blue function node, titled Toggle Visibility. Drag a connector (execute command) from the red node to the blue node. A relationship has now been created. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide37.PNG "Complete Blueprint of Trigger and Actor Overlap")
+
