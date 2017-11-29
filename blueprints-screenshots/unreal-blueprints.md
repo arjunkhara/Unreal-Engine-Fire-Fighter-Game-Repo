@@ -120,3 +120,5 @@ To trigger the matinee event, use a box trigger. Navigate to the left pane and s
 
 A trigger volume node has been created in the Blueprints window. This trigger event can now be linked to the Matinee event. The trigger volume node is an event node (red) that needs to be connected to a function node (blue) via the corresponding pins, in this case white to white. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide56.PNG "Trigger Volume Node Added to Blueprints")
 
+Make sure that in the scene panel the Matinee icon (a film clapper) is selected. Once done, return to the Blueprints window, right click then type Play in the search bar. Choose the Play function, which will create a Play node in the Blueprints window. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide57.PNG "Matinee Node Added to Blueprints")
+
