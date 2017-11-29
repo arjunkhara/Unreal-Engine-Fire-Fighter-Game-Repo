@@ -88,3 +88,5 @@ Sliding Doors: In this example I am recreating a scene from scratch, which I lea
 
 The glass door has been created and is in the scene. The Contents folder has a sub-folder inside titled StarterContent. This is a useful repository of basic items that are found most often in games, and can be used to quickly mock up or prototype a game in Unreal Engine. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide40.PNG "Glass Door")
 
+With the glass window selected, copy-paste the object  (Ctrl + C, then Ctrl + V) to create two glass windows. Together these will act as the glass doors that will slide open and close when an event is triggered. Before that, though, a pivot point needs to be set for the right door, from where the sliding action takes place. Otherwise both doors will slide open in the same direction instead of away from each other. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide41.PNG "Scene Created")
+
