@@ -96,3 +96,5 @@ Both the doors are now in position and ready for further actions. With the basic
 
 In this example, I have created a door frame and added a point light. The point light and the sliding doors will be animated using Blueprints. The door frame adds a level of reference and perception to this example. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide44.PNG "Door Frame and Point Light")
 
+The lightbulb intensity has been set to zero, and the colour has been changed to red. These settings can be accessed in the panel on the right, which activates when the object, in this case the lightbulb, has been clicked on. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide45.PNG "Light Intensity")
+
