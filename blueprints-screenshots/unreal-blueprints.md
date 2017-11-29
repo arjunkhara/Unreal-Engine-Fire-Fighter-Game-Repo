@@ -70,3 +70,7 @@ Once the light is on the scene, go back to the Blueprints window opened earlier,
 
 Notice that a new node for the point light has been created. From this node, a number of connections can be run to other assets to create relationships necessary for the game. An event now has to be created for these relationships to work. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide32.PNG "Positioning the Light")
 
+For ease of reference, it is a good idea to have the two windows side by side. This may be difficult on a smaller screen, but is immensely helpful when developing a game with several Blueprints and references, as I expect to soon enough. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide33.PNG "Side by Side Panels")
+
+Navigate back to the left pane, scroll to Volumes, and choose ‘Trigger Volume’ from the list. Drag this trigger volume box onto the scene. Then right click in the Blueprints window and choose Add Event for Trigger Volume 1 > Collision > Add on Actor Begin Overlap ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide34.PNG "Collision Event")
+
