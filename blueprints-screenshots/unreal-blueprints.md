@@ -90,3 +90,7 @@ The glass door has been created and is in the scene. The Contents folder has a s
 
 With the glass window selected, copy-paste the object  (Ctrl + C, then Ctrl + V) to create two glass windows. Together these will act as the glass doors that will slide open and close when an event is triggered. Before that, though, a pivot point needs to be set for the right door, from where the sliding action takes place. Otherwise both doors will slide open in the same direction instead of away from each other. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide41.PNG "Scene Created")
 
+Right click the door, then choose Transform > Mirror Y (to flip it along the Y-axis). The right glass window / door flips over and the two pivot points (one for each door) are now at the far edges and in position. Remember to drag the right door away from the left, since mirroring along the Y-axis will create a perfect overlap with the other door. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide42.PNG "Mirroring")
+
+Both the doors are now in position and ready for further actions. With the basic setup done, additional elements like lighting and door frames can be added from the Content > StarterContent folders. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide43.PNG "Setting Pivot Point")
+
