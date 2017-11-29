@@ -94,3 +94,5 @@ Right click the door, then choose Transform > Mirror Y (to flip it along the Y-a
 
 Both the doors are now in position and ready for further actions. With the basic setup done, additional elements like lighting and door frames can be added from the Content > StarterContent folders. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide43.PNG "Setting Pivot Point")
 
+In this example, I have created a door frame and added a point light. The point light and the sliding doors will be animated using Blueprints. The door frame adds a level of reference and perception to this example. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide44.PNG "Door Frame and Point Light")
+
