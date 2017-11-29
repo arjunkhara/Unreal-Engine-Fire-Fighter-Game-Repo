@@ -66,3 +66,7 @@ Trigger Lighting: In this scene I am creating a trigger area with lighting, whic
 
 Start by creating a point light. Click on the pane to the left of the screen, scroll down to Lights, then click and drag a point light onto the scene. The movement (W), rotation (E) and scale (R) can all be manipulated using the defined keyboard shortcuts. Move the light into position. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide30.PNG "Positioning the Light")
 
+Once the light is on the scene, go back to the Blueprints window opened earlier, and right click on the grid. From the pop-up menu, choose the ‘Create a Reference to Point Light’ option. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide31.PNG "Referencing Light Assets")
+
+Notice that a new node for the point light has been created. From this node, a number of connections can be run to other assets to create relationships necessary for the game. An event now has to be created for these relationships to work. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide32.PNG "Positioning the Light")
+
