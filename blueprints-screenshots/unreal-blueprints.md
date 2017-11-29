@@ -102,3 +102,5 @@ I am also adding a sound that will be played when the doors open. To access the 
 
 This is the scene all ready and set for Blueprint controls. Add anything else that may make the scene more game-like. For this example, I am going to stick to the sliding doors, lightbulb and audio, as per the tutorial. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide47.PNG "Scene Setup")
 
+Select one of the doors, then go to Cinematics > Add Matinee (Legacy) for the sake of the tutorial. A layers and play-head screen will open. This is where groups can be created, which will then be acted on together in Blueprints. Right click in the darker grey space to the left and select Add Empty Group. Give it an identifying label such as LeftDoor then press enter. Make sure that the door has been selected in the scene before creating the new empty group. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide48.PNG "Setting up Matinee")
+
