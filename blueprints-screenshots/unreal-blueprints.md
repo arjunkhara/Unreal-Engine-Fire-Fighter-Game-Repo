@@ -2,7 +2,7 @@
 
 Hello. I’m Arjun Khara, a student at Goldsmiths College, University of London. This is my introduction to Unreal Engine. As this is my first time using any games-engine software, I will be documenting all my learnings with Unreal Engine (UE) for the purposes of the module, as well as to provide a rudimentary introduction to future students of this module who, like me, have no experience with game engines but want to learn as much and as quickly as possible.
 
-<h1>Unreal Engine and Blueprints: Section 1</h1>
+<h2>Unreal Engine and Blueprints: Section 1</h2>
 
 This is the welcome screen in Unreal Engine. Development will initially be done through Blueprints, UE’s visual coding environment, like Scratch. Click on the Blank option (first option, top-left). Also ensure that the ‘With Starter Content’ option is selected, from the bottom three boxes, below the menu. Note, the ‘With Starter Content’ option box does not light up like the options above. The wording instead toggles between ‘With Starter Content’ and ‘No Starter Content’. Click on Create Project. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide1.PNG "Opening and using Unreal Engine")
 
@@ -60,7 +60,7 @@ Once the new material has been created, right click the asset then select ‘Cre
 
 To assign the new character material to the character, double click the character asset box (SK_Mannequin), then tear off the tab so that both the Mesh view as well as the main UE view are visible. Then drag the new material asset from the UE window onto the Material Slots icon (the existing material image). The character is reskinned with the new material. When the result is satisfactory, click the ‘Save’ icon at the top left of the SK_Mannequin window. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide28.PNG "Final Character Materials Map Done")
 
-<h1>Unreal Engine and Blueprints: Section 2</h2>
+<h2>Unreal Engine and Blueprints: Section 2</h2>
 
 Trigger Lighting: In this scene I am creating a trigger area with lighting, which turns on and off as a player enters a specific area. All the actions in this scene are controlled entirely in Blueprints. Since most of this project focuses on familiarity with Blueprints, it is important to know how to navigate to and around this section. In any project window, there is a toolbar at the top with Blueprints as one of the options. Click on Blueprints > Open Level Blueprint to access these controls. Note that in Blueprints, events have a red bar, while functions have a blue bar. This is one way of immediately differentiating between blocks. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide29.PNG "Navigating Blueprints Further")
 
@@ -79,4 +79,6 @@ Notice that a new red node, titled OnActorBeginOverlap (TriggerVolume) has been 
 Click on the blue pin of the Point Light and drag out a connector line. From the dialog box that pops up, type ‘visibility’ into the search bar, then click on Toggle Visibility. Two new nodes are created with connector links between them automatically set up. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide36.PNG "Connected Light to Event")
 
 I have enlarged the Blueprint window here for easier reference and neatened the layout. Notice that the pins are colour and shape-coded, which makes for easy referencing between how each node’s pins connect to the others. In this case, the red event node, titled (OnActoBeginOverlap) has a white triangular pin, as does the blue function node, titled Toggle Visibility. Drag a connector (execute command) from the red node to the blue node. A relationship has now been created. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide37.PNG "Complete Blueprint of Trigger and Actor Overlap")
+
+Navigate to the main scene window and press the Play button, located at the top of the window. Using the mouse and direction keys on the keyboard, move around the scene. Notice that when the player enters the light area, the light turns on. When the player exits and re-enters the light area, the light turns off. This is the toggle action that has been setup in Blueprints so far. To exit from the live scene and back into editing mode, hit Esc. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide38.PNG "Final Scene Created")
 
