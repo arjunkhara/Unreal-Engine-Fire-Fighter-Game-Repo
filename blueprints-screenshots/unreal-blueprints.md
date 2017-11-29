@@ -82,3 +82,7 @@ I have enlarged the Blueprint window here for easier reference and neatened the 
 
 Navigate to the main scene window and press the Play button, located at the top of the window. Using the mouse and direction keys on the keyboard, move around the scene. Notice that when the player enters the light area, the light turns on. When the player exits and re-enters the light area, the light turns off. This is the toggle action that has been setup in Blueprints so far. To exit from the live scene and back into editing mode, hit Esc. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide38.PNG "Final Scene Created")
 
+<h2>Unreal Engine and Blueprints: Section 3</h2>
+
+Sliding Doors: In this example I am recreating a scene from scratch, which I learned from YouTube (Virtus Learning Hub). When the player approaches a door, the two glass panes slide away from each other, a light turns on and a sound plays. To create a sliding door, the object of the door has to first be created. In a new project, click on the arrow next to Content, then choose Props > Glass Window. Click and drag the glass window onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide39.PNG "Starter Content Assets")
+
