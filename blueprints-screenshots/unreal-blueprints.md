@@ -86,3 +86,5 @@ Navigate to the main scene window and press the Play button, located at the top 
 
 Sliding Doors: In this example I am recreating a scene from scratch, which I learned from YouTube (Virtus Learning Hub). When the player approaches a door, the two glass panes slide away from each other, a light turns on and a sound plays. To create a sliding door, the object of the door has to first be created. In a new project, click on the arrow next to Content, then choose Props > Glass Window. Click and drag the glass window onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide39.PNG "Starter Content Assets")
 
+The glass door has been created and is in the scene. The Contents folder has a sub-folder inside titled StarterContent. This is a useful repository of basic items that are found most often in games, and can be used to quickly mock up or prototype a game in Unreal Engine. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide40.PNG "Glass Door")
+
