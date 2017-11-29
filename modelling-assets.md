@@ -17,3 +17,7 @@ This is a preview of the fire tank (H2O suppressant):
 
 This is a preview of the electric SUV (Requires CO2 suppressant):
 ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/image-assets/e-Hummer-1.jpg "Electric SUV")
+
+This is a preview of the tombstone (Requires powder suppressant):
+![alt tag](https://github.com/arjunkhara/Fire-Fighter-Game-Repo/blob/master/image-assets/Tombstone.png "Tombstone")
+
