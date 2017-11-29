@@ -118,3 +118,5 @@ With the sound layers created, click on the white start time bar, and hit enter 
 
 To trigger the matinee event, use a box trigger. Navigate to the left pane and select Basic > Box Trigger. Then drag the box trigger over to the scene and place it in front of the door. This will be the trigger for a player to activate, which will cause the matinee to play. Scale up the trigger area if needed so that the interaction area is large enough to catch any event. Instead of a box trigger, a trigger volume (from the previous notes) can also be used. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide55.PNG "Box Trigger Added")
 
+A trigger volume node has been created in the Blueprints window. This trigger event can now be linked to the Matinee event. The trigger volume node is an event node (red) that needs to be connected to a function node (blue) via the corresponding pins, in this case white to white. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide56.PNG "Trigger Volume Node Added to Blueprints")
+
