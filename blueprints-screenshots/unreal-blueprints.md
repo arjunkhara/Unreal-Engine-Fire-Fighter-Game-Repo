@@ -100,3 +100,5 @@ The lightbulb intensity has been set to zero, and the colour has been changed to
 
 I am also adding a sound that will be played when the doors open. To access the sounds library, navigate to StarterContent > Audio, then drag an audio file onto the scene. In this example I am going to add the default Starter Music Cue. In the audio panel (which pops up when the audio element is selected) scroll to the Activation section and ensure that Auto Activate is deselected, so that the sound does not start playing as soon as the scene begins, but only when the door opens. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide46.PNG "Sound Asset")
 
+This is the scene all ready and set for Blueprint controls. Add anything else that may make the scene more game-like. For this example, I am going to stick to the sliding doors, lightbulb and audio, as per the tutorial. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide47.PNG "Scene Setup")
+
