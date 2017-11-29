@@ -74,3 +74,7 @@ For ease of reference, it is a good idea to have the two windows side by side. T
 
 Navigate back to the left pane, scroll to Volumes, and choose ‘Trigger Volume’ from the list. Drag this trigger volume box onto the scene. Then right click in the Blueprints window and choose Add Event for Trigger Volume 1 > Collision > Add on Actor Begin Overlap ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide34.PNG "Collision Event")
 
+Notice that a new red node, titled OnActorBeginOverlap (TriggerVolume) has been created in the Blueprint window. This node is an event node; it also has pins which can be connected to the blue lightbulb node (the object node) to establish a relationship. Note also that the pins are colour-coded, which will be useful. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide35.PNG "Red Nodes")
+
+Click on the blue pin of the Point Light and drag out a connector line. From the dialog box that pops up, type ‘visibility’ into the search bar, then click on Toggle Visibility. Two new nodes are created with connector links between them automatically set up. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide36.PNG "Connected Light to Event")
+
