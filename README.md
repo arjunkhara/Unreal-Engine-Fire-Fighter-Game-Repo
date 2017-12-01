@@ -19,3 +19,6 @@ Project Programmer: Sarah Chalk<br/>
 Project Modeller: Daniel Nicholson<br/>
 
 The project team will meet this Thursday (30 November 2017) and again on Saturday (2 December 2017) to combine all the assets we have modelled so far, and begin to integrate these into Blueprints. We are expecting all modelling to be completed by Thursday evening, 30 November 2017. Saturday, (2 December 2017) will be spent building out the main sequences of the project and for rapid prototyping of the game to address any discrepancies and concerns, as well as to evaluate what works and what needs to be changed.
+
+Dan has figured out how to use GitLFS with GitBash to store files and upload them, in Blueprint format. Dan will teach the rest of the team how to make this work across the entire project during our weekly Saturday meeting on 2 December 2017. We will use this method together with existing procedures to begin committing and sharing our file contributions across the project.
+
