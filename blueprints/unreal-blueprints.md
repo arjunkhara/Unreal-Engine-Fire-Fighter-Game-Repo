@@ -131,7 +131,7 @@ Ensure that the Matinee icon (film clapper) is selected in the scene. In the Blu
 This is the final scene, built entirely from Blueprints and the Matinee. In newer versions of Unreal Engine, the Matinee has been relegated to legacy mode, and replaced by Cinematics. However, the Matinee still works and can be used with Blueprints as shown in this example. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide61.PNG "Final Result")
 Reference made to tutorials of 'Unreal Engine' (https://www.youtube.com/watch?v=EFXMW_UEDco&list=PLZlv_N0_O1gY35ezlSQn1sWOGfh4C7ewO), 'Matthew Palaje' (https://www.youtube.com/watch?v=Wd2IFU0okrE), Sparckman (https://www.youtube.com/watch?v=0AsFmYpTG48), and Virtus Learning Hub (https://www.youtube.com/watch?v=LuqmeOi4_Ag).
 
-<h2>Unreal Engine and Blueprints: Section 3</h2>
+<h2>Unreal Engine and Blueprints: Section 4</h2>
 
 In this example, I have created the fire effect by going to StarterContent > Blueprints > Blueprints_Effect_Fire and dragged the instance of this fire onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide62.PNG "Fire Creation")
 
