@@ -131,6 +131,8 @@ Ensure that the Matinee icon (film clapper) is selected in the scene. In the Blu
 This is the final scene, built entirely from Blueprints and the Matinee. In newer versions of Unreal Engine, the Matinee has been relegated to legacy mode, and replaced by Cinematics. However, the Matinee still works and can be used with Blueprints as shown in this example. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide61.PNG "Final Result")
 Reference made to tutorials of 'Unreal Engine' (https://www.youtube.com/watch?v=EFXMW_UEDco&list=PLZlv_N0_O1gY35ezlSQn1sWOGfh4C7ewO), 'Matthew Palaje' (https://www.youtube.com/watch?v=Wd2IFU0okrE), Sparckman (https://www.youtube.com/watch?v=0AsFmYpTG48), and Virtus Learning Hub (https://www.youtube.com/watch?v=LuqmeOi4_Ag).
 
+<h2>Unreal Engine and Blueprints: Section 3</h2>
+
 In this example, I have created the fire effect by going to StarterContent > Blueprints > Blueprints_Effect_Fire and dragged the instance of this fire onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide62.PNG "Fire Creation")
 
 Double-click the Blueprints_Effects_Fire icon to enter the Blueprints for the fire effect. Then click on Viewport to enter the component mode of the fire effect. In this section I will change the effect of the fire’s interaction with the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide63.PNG "Component Manipulation")
@@ -168,4 +170,16 @@ Finally, drag out a connector form the SpawnSoundAttached node and create a dela
 I have altered the sound effects to a hissing steam sound, rather than an explosion, and changed the visual output to vapour rising, which fits perfectly with the theme of the game. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide79.PNG "Sound Effect Altered")
 
 This Blueprint record shows the changes, with respect to the output above, as well as the entire flow of logic for this process. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide80.PNG "Final Blueprint for Game Douse Effects")
+
+<h4>References for this section are:</h4>
+
+- Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
+
+- Pub Games, on YouTube, accessible at: https://www.youtube.com/watch?v=6-ZwY4RDaPQ
+
+- Tesla Dev, on YouTube, accessible at: https://www.youtube.com/watch?v=1aSdzw5zPtg
+
+- Unreal Engine, on YouTube, accessible at: https://www.youtube.com/watch?v=pdjFm7YA8vI&t=97s
+
+- Virtus Learning Lab, on YouTube, accessible at; https://www.youtube.com/watch?v=w_j8BMg27u8
 
