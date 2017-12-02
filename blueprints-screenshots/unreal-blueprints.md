@@ -140,3 +140,6 @@ Navigate to the Add Component button on the left pane, and add a Post Process co
 Here I have created the red fire necessary for items which will require a water suppressant to put out the flames. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide65.PNG "Red Fire Instance")
 
 Here I have created the blue fire necessary for items which will require a powder suppressant to put out the flames. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide66.PNG "Blue Fire Instance")
+
+Here I have created the green fire necessary for items which will require a carbon dioxide suppressant to put out the flames. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide67.PNG "Green Fire Instance")
+
