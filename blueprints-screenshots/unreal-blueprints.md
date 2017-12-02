@@ -143,3 +143,5 @@ Here I have created the blue fire necessary for items which will require a powde
 
 Here I have created the green fire necessary for items which will require a carbon dioxide suppressant to put out the flames. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide67.PNG "Green Fire Instance")
 
+When the character gets hit by the flaming object the character takes on damage. This procedure has been built and integrated into the Blueprints of our game build. Note the use of Cast ToFirstPersonCharacter node and Apply Damage node function. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide68.PNG "Damage Application for Character")
+
