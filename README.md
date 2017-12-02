@@ -22,3 +22,7 @@ The project team will meet this Thursday (30 November 2017) and again on Saturda
 
 Dan has figured out how to use GitLFS with GitBash to store files and upload them, in Blueprint format. Dan will teach the rest of the team how to make this work across the entire project during our weekly Saturday meeting on 2 December 2017. We will use this method together with existing procedures to begin committing and sharing our file contributions across the project.
 
+We have managed to use Blueprints to create a number of effects for our game. Dan has worked out the AI to make objects come towards the player, which is an essential part of gameplay. Arjun has managed to work out the fire effects and colours, and integrated the dousing effects for when the object is sprayed with a suppressant. Arjun and Dan are now working off Dan's computer to integrate the separate Blueprints into a single logic flow that will control game play. We have  created a successful mock up of the environment with placeholders for the FBX assets. We are working on importing and integrating these assets, once the Blueprints codes and logic flows are in place. We are aiming to have a demo ready in time for the next presentation on Friday, 9 December 2017, where we will showcase the basic game play as an MVP, complete with dynamics, mechanics, and interaction options. We are also working on an introduction movie before the game begins, to familiarise players with the game rules and expectations.
+
+
+
