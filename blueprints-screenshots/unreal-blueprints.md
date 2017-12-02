@@ -155,3 +155,5 @@ Back in the event graph, remove the node for DestroyActor, and create a new Sphe
 
 Create a new Radial Force > Get node, then drag out a connection from its pin and create a Fire Impulse function node. The Fire Impulse node will ensure that the destruction effects linger after the object has been destroyed. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide73.PNG "Fire Impulse Lingers")
 
+However, the Fire Impulse node will keep playing the destruction effects back, and so I have created a Do Once node to make sure the Fire Impulse only occurs once per instance of destruction. Link the DestroyComponent function node to the DoOnce node, then link the Completed pin on the DoOnce node to the FireImpulse node to force the FireImpulse function to perform just one instance of destruction. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide74.PNG "Single Instance of Destruction")
+
