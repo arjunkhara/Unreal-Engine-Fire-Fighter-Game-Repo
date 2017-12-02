@@ -165,3 +165,5 @@ From the white pin on the Spawn Emitter at Location, drag out a new connector an
 
 Finally, drag out a connector form the SpawnSoundAttached node and create a delay node and set the duration to 2. Then drag out the a connector from the Completed pin on the Delay node to create the DestroyActor node. Compile the Blueprint and play the game in the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide78.PNG "Actor Destruction")
 
+I have altered the sound effects to a hissing steam sound, rather than an explosion, and changed the visual output to vapour rising, which fits perfectly with the theme of the game. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide79.PNG "Sound Effect Altered")
+
