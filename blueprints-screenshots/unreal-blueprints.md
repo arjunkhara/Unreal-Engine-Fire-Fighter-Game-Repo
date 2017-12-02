@@ -137,3 +137,5 @@ Double-click the Blueprints_Effects_Fire icon to enter the Blueprints for the fi
 
 Navigate to the Add Component button on the left pane, and add a Post Process component. Under the Colour Grading > White Balance > Global > Saturation settings, change the colour of the fire to the necessary tones required for the game, in this case red fire for water suppressant, blue fire for powder suppressant, and green fire for carbon dioxide suppressant. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide64.PNG "Fire Colour Settings")
 
+Here I have created the red fire necessary for items which will require a water suppressant to put out the flames. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide65.PNG "Red Fire Instance")
+
