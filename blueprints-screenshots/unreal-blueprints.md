@@ -167,3 +167,5 @@ Finally, drag out a connector form the SpawnSoundAttached node and create a dela
 
 I have altered the sound effects to a hissing steam sound, rather than an explosion, and changed the visual output to vapour rising, which fits perfectly with the theme of the game. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide79.PNG "Sound Effect Altered")
 
+This Blueprint record shows the changes, with respect to the output above, as well as the entire flow of logic for this process. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide80.PNG "Final Blueprint for Game Douse Effects")
+
