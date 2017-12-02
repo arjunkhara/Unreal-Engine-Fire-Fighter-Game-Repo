@@ -149,3 +149,9 @@ Because this is a fire fighter game, and the main projectile source is a hose, t
 
 The effect is clear to see and the spray of pellets works well. In the next steps following this Blueprint, I will convert the pellets to a more watery, and gassy substance to give the suppressant materials a more realistic look and feel. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide70.PNG "Fire Rate Demo")
 
+In this example, I am using Blueprints to increase the explosive quality of the projectile on impact, as is the case when using a powder suppressant, where the material spreads and disseminates on impact with the object. I am altering the MyProjectile Blueprints, and have added a Radial Force, then increased the Impulse Strength in the right pane. I have also increased the destructible damage to little over 1, and the Radius Force to little over 230. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide71.PNG "Projectile Explosion")
+
+Back in the event graph, remove the node for DestroyActor, and create a new Sphere > Get. Then link the Sphere node to a new function node, titled DestroyComponent. This is to prepare for the next step where the objects get destroyed but the particle and sound assets remain in place for a while longer. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide72.PNG "Object Destruction")
+
+Create a new Radial Force > Get node, then drag out a connection from its pin and create a Fire Impulse function node. The Fire Impulse node will ensure that the destruction effects linger after the object has been destroyed. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints-screenshots/unreal-blueprints-images-folder/Slide73.PNG "Fire Impulse Lingers")
+
