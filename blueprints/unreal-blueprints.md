@@ -227,7 +227,9 @@ From the Object pin on the Cast To Character node, drag out a connector, then ty
 
 From the white pin titled On Success, in the AI Move To node, drag out a connector and type DestroyActor to create the corresponding function node. This relationship is to destroy the AI itself upon successful collision with the main character. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide105.PNG "AI Destruction")
 
+From the white pin on the Destroy Actor node, drag out a connector and create a Spawn Emitter at Location node. Under the Emitter Template dropdown, choose P_Fire. This makes the AI catch fire when it collides with the main character. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide106.PNG "Spawn Fire")
 
+In order to make the AI’s fire occur where the main character or player is, a new node is required. Drag out a connector from the yellow Location pin on the Spawn Emitter at Location node, and create a new node titled GetActorLocation. This function node controls where the fire will occur when the AI collides, i.e. wherever the player’s location is. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide107.PNG "Fire Emission Location")
 
 
 
