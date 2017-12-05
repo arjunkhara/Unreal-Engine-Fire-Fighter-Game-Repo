@@ -233,6 +233,12 @@ In order to make the AI’s fire occur where the main character or player is, a 
 
 In order for the main character to lose health on impact with the AI, a health variable needs to be created. Open up the Blueprints for the main character, i.e. ThirdPersonCharacter by double-clicking, then create a new variable. Rename this variable to something meaningful. I titled the variable MyHealth. Then navigate to the Details pane on the right, and from the Variable Type dropdown box, choose Integer. This is a number that can be incremented or decremented. Once this is done, save this ThirdPersonCharacter Blueprint, and return to the AI, i.e. TP_Duplicate Blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide108.PNG "Player Health Variable")
 
+In the TP_Duplicate Blueprint, navigate back to the Cast To Third Person Character node, then drag a connector from the pin titled As Third Person Character and create a new node by typing in the name of variable, i.e. MyHealth. This is why it is important to use meaningful names that are easy to recall because these assets are stored within Blueprints for later references. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide109.PNG "Linked Health Vairable to AI Impact")
+
+From the SET node containing the player health variable, connect the white pin to the corresponding white pin on the Spawn Emitter at Location node. Then drag out a connector from the MyHealth pin on the SET node and create a -integer node. This will decrease the player’s health upon collision with the AI. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide110.PNG "Decrease Health Integer")
+
+Once again, navigate back to the Cast To Third Person Character node, then drag yet another new connector from the pin titled As Third Person Character and create a new node by typing in get My Health. This will create a new node that targets the current health of the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide111.PNG "Calculate Current Health and Decrement on AI Impact")
+
 
 
 
