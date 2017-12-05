@@ -196,7 +196,7 @@ Right-click in the Blueprints window and type ‘Make Rotator’ to create the c
 
 Drag a connector from the blue pin on the Light Source node, and create a ‘SetActorRotation’ function node. This function node will control the rotation. From the ‘Make Rotator’ node, drag a connector from the Return Value pin and connect it to the New Rotation pin on the ‘SetActorRotation’ node. Next, drag a connector from the Update pin in the ‘Timeline_0’ node and connect it to the white pin of the ‘SetActorRotation’ node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide91.PNG "Set Actor Rotation Function Node")
 
-
+Navigate back to the scene window, and from the World Outliner, type in skysphere. Then drag the asset into the Blueprints window to create the SkySphereBlueprint node. This node represents the sun point-light in the sky, for the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide92.PNG "Sky Sphere Node")
 
 
 
