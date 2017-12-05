@@ -219,7 +219,7 @@ In the search bar, type in Pawn Sensing. The Pawn Sensing function allows the AI
 
 Select the Pawn Sensing component from the pane on the left, then right-click in the Blueprints window and create a node titled Add On See Pawn. A red event node is created. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide101.PNG "On See Pawn")
 
-
+Drag out a connector from the white pin of the On See Pawn node, then type Cast To Third Person Character to create the corresponding node. This will allow the event to see the character and then perform a scripted action. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide102.PNG "Cast to Character")
 
 
 
