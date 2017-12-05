@@ -208,6 +208,25 @@ The sun is now moving across the sky at one second per hour representation. Noti
 
 This is the completed Blueprint for the day-night cycle, complete with the nodes, connections, and flow of logic that is being used in the scene. This Blueprint will be used in the group’s Fire Fighter game to provide a more realistic environment with the addition of a day-night cycle. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide97.PNG "Completed Blueprint")
 
+
+<h2>Unreal Engine and Blueprints: Section 6</h2>
+
+Blueprints for Player AI Explosion on Collision: In this example I am learning to create a Blueprint scenario in which an AI collides with a player, catches on fire, and damages the health of the player. Begin by duplicating the character in the scene. Go to the Blueprints folder > ThirdPersonCharacter, then right-click and select Duplicate. Rename the new asset that has been created to a meaningful name. I have labelled this asset TP_Duplicate. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide98.PNG "Setup Blueprint")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h4>References and Sources of Learning:</h4>
 
 - Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
