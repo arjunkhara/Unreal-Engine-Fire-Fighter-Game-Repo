@@ -178,7 +178,7 @@ Day and Night Cycles in Unreal Engine 4 With Blueprints: In this example I will 
 
 Once the light source has been set to moveable, open the Level Blueprints, then right-click and type timeline. Click on the Add Timeline to create a Timeline_0 node. This is the node that will rove the light across the sky over the timeline, creating the day and night cycle. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide82.PNG "Day Moveable Light Source")
 
-
+The timeline node has been added to the Blueprint. Double-click on the node to access the timeline template properties. Modifications are required in this section to control to the duration and loop of the timeline. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide83.PNG "Timeline Node Added")
 
 
 
