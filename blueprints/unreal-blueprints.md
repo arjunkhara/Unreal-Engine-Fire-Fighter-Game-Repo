@@ -213,7 +213,7 @@ This is the completed Blueprint for the day-night cycle, complete with the nodes
 
 Blueprints for Player AI Explosion on Collision: In this example I am learning to create a Blueprint scenario in which an AI collides with a player, catches on fire, and damages the health of the player. Begin by duplicating the character in the scene. Go to the Blueprints folder > ThirdPersonCharacter, then right-click and select Duplicate. Rename the new asset that has been created to a meaningful name. I have labelled this asset TP_Duplicate. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide98.PNG "Setup Blueprint")
 
-
+Double-click the TP_Duplicate asset to enter its Blueprints class. Delete the entire set of nodes and logic flows as these will all be re-built from scratch. Once that’s done, navigate to the Add Component button at the top left of the window, in the Components pane. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide99.PNG "Duplicate Character for Testing")
 
 
 
