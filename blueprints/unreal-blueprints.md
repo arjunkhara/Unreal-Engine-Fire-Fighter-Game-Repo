@@ -190,7 +190,7 @@ Create another keyframe (click + shift) and in the Time box enter 24, and in the
 
 Press the ‘Horizontal Zoom’ and ‘Vertical Zoom’ buttons at the top left of the graph shows the linear relationship that has been created. Once this is done, return to Blueprints by closing the timeline template box tab. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide88.PNG "Linear Relationship Graph")
 
-
+Keeping both windows open (Level Blueprints and Scene Editor) drag in the Light Source asset into the Blueprints window to create the Light Source node. Note that at this stage the motion of the light source (as per the timeline template) is linear. To make the light source rotate around the scene, a rotation node is required. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide89.PNG "Light Source Node")
 
 
 
