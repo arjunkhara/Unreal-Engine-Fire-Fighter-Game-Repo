@@ -176,8 +176,7 @@ This Blueprint record shows the changes, with respect to the output above, as we
 
 Day and Night Cycles in Unreal Engine 4 With Blueprints: In this example I will be learning how to use Blueprints to change the default noon-day static lighting to a continuously looping day-night cycle, complete with sunrises, sunsets, and dark starry skies. In the World Outliner pane (on the right) type in Light Source Directional to locate the asset. Then scroll down to the properties panel > Transform > Mobility, and change the mobility to moveable. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide81.PNG "Day Night Cycle Started")
 
-
-
+Once the light source has been set to moveable, open the Level Blueprints, then right-click and type timeline. Click on the Add Timeline to create a Timeline_0 node. This is the node that will rove the light across the sky over the timeline, creating the day and night cycle. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide82.PNG "Day Moveable Light Source")
 
 
 
