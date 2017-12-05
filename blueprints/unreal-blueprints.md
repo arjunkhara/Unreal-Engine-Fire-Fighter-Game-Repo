@@ -182,7 +182,13 @@ The timeline node has been added to the Blueprint. Double-click on the node to a
 
 In the timeline template view (after double-clicking the node) change the Length value from 5 seconds (default) to 24 seconds. Therefore each second will represent an hour in the game. Then check the boxes for AutoPlay and Loop. This is to ensure the day and night cycle are automatic and keep looping forever. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide84.PNG "Duration and Loops")
 
+Once the parameters for the Length, AutoPlay, and Loop are set, click on the F (function) button to create a float track. In the name box, enter a name for the float track. This float track will control the position of the moveable light source. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide85.PNG "Timeline Node Added")
 
+Create a new keyframe by clicking and pressing shift together. In the Time box, enter 0, and in the Value box, enter 0. These settings signify the start of the day. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide86.PNG "Timeline Node Added")
+
+Create another keyframe (click + shift) and in the Time box enter 24, and in the Value box, enter 360. These settings for this keyframe signify the end of the day-night cycle. Note that the value box contains the angle of sweep for the light source as it curves around and under the scene, like the sun and the earth. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide87.PNG "Timeline Node Added")
+
+Press the ‘Horizontal Zoom’ and ‘Vertical Zoom’ buttons at the top left of the graph shows the linear relationship that has been created. Once this is done, return to Blueprints by closing the timeline template box tab. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide88.PNG "Timeline Node Added")
 
 
 
