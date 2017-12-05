@@ -180,6 +180,12 @@ Once the light source has been set to moveable, open the Level Blueprints, then 
 
 The timeline node has been added to the Blueprint. Double-click on the node to access the timeline template properties. Modifications are required in this section to control to the duration and loop of the timeline. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide83.PNG "Timeline Node Added")
 
+In the timeline template view (after double-clicking the node) change the Length value from 5 seconds (default) to 24 seconds. Therefore each second will represent an hour in the game. Then check the boxes for AutoPlay and Loop. This is to ensure the day and night cycle are automatic and keep looping forever. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide84.PNG "Duration and Loops")
+
+
+
+
+
 
 
 
