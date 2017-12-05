@@ -231,6 +231,8 @@ From the white pin on the Destroy Actor node, drag out a connector and create a 
 
 In order to make the AI’s fire occur where the main character or player is, a new node is required. Drag out a connector from the yellow Location pin on the Spawn Emitter at Location node, and create a new node titled GetActorLocation. This function node controls where the fire will occur when the AI collides, i.e. wherever the player’s location is. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide107.PNG "Fire Emission Location")
 
+In order for the main character to lose health on impact with the AI, a health variable needs to be created. Open up the Blueprints for the main character, i.e. ThirdPersonCharacter by double-clicking, then create a new variable. Rename this variable to something meaningful. I titled the variable MyHealth. Then navigate to the Details pane on the right, and from the Variable Type dropdown box, choose Integer. This is a number that can be incremented or decremented. Once this is done, save this ThirdPersonCharacter Blueprint, and return to the AI, i.e. TP_Duplicate Blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide108.PNG "Player Health Variable")
+
 
 
 
