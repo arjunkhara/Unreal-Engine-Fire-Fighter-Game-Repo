@@ -198,6 +198,7 @@ Drag a connector from the blue pin on the Light Source node, and create a ‘Set
 
 Navigate back to the scene window, and from the World Outliner, type in skysphere. Then drag the asset into the Blueprints window to create the SkySphereBlueprint node. This node represents the sun point-light in the sky, for the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide92.PNG "Sky Sphere Node")
 
+From the ‘SkySphereBlueprint’ node, drag a connector off the blue pin and type ‘Update Sun Direction’ to create the corresponding node. This node controls the direction of the sun’s light as it moves over the scene. Drag a connector from the white pin of the ‘Set Actor Rotation’ node and link it to the white pin on the ‘Update Sun Direction’ node. Now the rotation and the sunlight direction are linked, so when the sun rotates the light direction changes accordingly. The Blueprint is ready. Click on Compile, then return to the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide93.PNG "Light Direction")
 
 
 
