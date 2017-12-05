@@ -245,7 +245,7 @@ If for any reason the AI does not follow the main player, navigate to the left p
 
 The AI now collides with the main player and sets the player on fire. Now that I have learned how to make objects move towards the main character and cause the main character to catch on fire and lose health, I will be integrating this Blueprint into our project as the logic for which the fire fighter will lose health if the fire coming towards the player is not put out in time or by using an adequate fire suppressant. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide114.PNG "Testing Blueprints")
 
-
+This is the complete Blueprint for the AI script and behaviour governing its logic. The final step is to destroy the main character when health levels fall below zero. This is done in the ThirdPersonCharacter Blueprint, and not in the AI TP_Duplicate Blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide115.PNG "Final Blueprints")
 
 
 
