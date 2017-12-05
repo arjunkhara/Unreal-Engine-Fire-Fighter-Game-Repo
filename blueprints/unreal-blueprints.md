@@ -171,7 +171,20 @@ I have altered the sound effects to a hissing steam sound, rather than an explos
 
 This Blueprint record shows the changes, with respect to the output above, as well as the entire flow of logic for this process. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide80.PNG "Final Blueprint for Game Douse Effects")
 
-<h4>References for this section are:</h4>
+
+<h2>Unreal Engine and Blueprints: Section 5</h2>
+
+Day and Night Cycles in Unreal Engine 4 With Blueprints: In this example I will be learning how to use Blueprints to change the default noon-day static lighting to a continuously looping day-night cycle, complete with sunrises, sunsets, and dark starry skies. In the World Outliner pane (on the right) type in Light Source Directional to locate the asset. Then scroll down to the properties panel > Transform > Mobility, and change the mobility to moveable. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide81.PNG "Day Night Cycle Started")
+
+
+
+
+
+
+
+
+
+<h4>References and Sources of Learning:</h4>
 
 - Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
 
