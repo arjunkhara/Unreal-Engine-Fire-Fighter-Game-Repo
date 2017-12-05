@@ -225,6 +225,23 @@ Drag out a new connector from the Cast To Third Person Character node and create
 
 From the Object pin on the Cast To Character node, drag out a connector, then type Get Player Character to create a new function node titled Get Player Character. At this stage, if compile is clicked, the duplicate AI (which requires dragging onto the scene from the icon tray) is created and will follow the main character around the scene without colliding or causing any interaction. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide104.PNG "Cast to Character")
 
+From the white pin titled On Success, in the AI Move To node, drag out a connector and type DestroyActor to create the corresponding function node. This relationship is to destroy the AI itself upon successful collision with the main character. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide105.PNG "AI Destruction")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
