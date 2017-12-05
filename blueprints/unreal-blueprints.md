@@ -243,7 +243,7 @@ Connect the pin titled My Health on this new node to the top pin of the -integer
 
 If for any reason the AI does not follow the main player, navigate to the left pane, click on Volumes > Nav Mesh Bounds Volume and drag this bounding box onto the scene. Scale up the box to as big as possible to cover the entire play area. I used 30 for the X, Y, and Z values. Once done, click play and begin running immediately. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide113.PNG "Volume Bound Mesh")
 
-
+The AI now collides with the main player and sets the player on fire. Now that I have learned how to make objects move towards the main character and cause the main character to catch on fire and lose health, I will be integrating this Blueprint into our project as the logic for which the fire fighter will lose health if the fire coming towards the player is not put out in time or by using an adequate fire suppressant. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide114.PNG "Testing Blueprints")
 
 
 
