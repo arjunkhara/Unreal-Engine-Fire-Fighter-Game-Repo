@@ -221,7 +221,9 @@ Select the Pawn Sensing component from the pane on the left, then right-click in
 
 Drag out a connector from the white pin of the On See Pawn node, then type Cast To Third Person Character to create the corresponding node. This will allow the event to see the character and then perform a scripted action. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide102.PNG "Cast to Character")
 
+Drag out a new connector from the Cast To Third Person Character node and create an AI Move To node. This node tells the AI where to move when the game is run. Then, connect the blue pin (As Third Person Character) from the Cast To Third Person Character node to the blue pin of the AI Move To node (Target Actor). Next, drag out a connector from the blue pin (pawn) of the Ai Move To node, then type in Self to create a Self node, which will link the AI’s movements back to itself. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide103.PNG "Cast to Character")
 
+From the Object pin on the Cast To Character node, drag out a connector, then type Get Player Character to create a new function node titled Get Player Character. At this stage, if compile is clicked, the duplicate AI (which requires dragging onto the scene from the icon tray) is created and will follow the main character around the scene without colliding or causing any interaction. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide104.PNG "Cast to Character")
 
 
 
