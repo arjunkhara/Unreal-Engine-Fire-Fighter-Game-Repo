@@ -192,6 +192,8 @@ Press the ‘Horizontal Zoom’ and ‘Vertical Zoom’ buttons at the top left 
 
 Keeping both windows open (Level Blueprints and Scene Editor) drag in the Light Source asset into the Blueprints window to create the Light Source node. Note that at this stage the motion of the light source (as per the timeline template) is linear. To make the light source rotate around the scene, a rotation node is required. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide89.PNG "Light Source Node")
 
+Right-click in the Blueprints window and type ‘Make Rotator’ to create the corresponding node. Then link the Y Pitch pin in the ‘Make Rotator’ node to the Position pin in the ‘Timeline_0’ node. This will cause the linear relationship to take on degree rotation. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide90.PNG "Rotator Node")
+
 
 
 
