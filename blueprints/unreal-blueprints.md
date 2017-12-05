@@ -239,7 +239,7 @@ From the SET node containing the player health variable, connect the white pin t
 
 Once again, navigate back to the Cast To Third Person Character node, then drag yet another new connector from the pin titled As Third Person Character and create a new node by typing in get My Health. This will create a new node that targets the current health of the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide111.PNG "Calculate Current Health and Decrement on AI Impact")
 
-
+Connect the pin titled My Health on this new node to the top pin of the -integer node. In the bottom pin of the -integer node, type in 34 in the numbers value box. Note that this box is a percentage, so that every hit takes away a percentage of the player’s life. By setting it to 34, the player has three chances before all life is gone (i.e. when the total hits exceed 100%). When this is done, click compile. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide112.PNG "Three Lives Given to Player")
 
 
 
