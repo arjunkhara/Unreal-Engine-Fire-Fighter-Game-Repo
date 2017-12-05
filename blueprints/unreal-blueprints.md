@@ -215,8 +215,9 @@ Blueprints for Player AI Explosion on Collision: In this example I am learning t
 
 Double-click the TP_Duplicate asset to enter its Blueprints class. Delete the entire set of nodes and logic flows as these will all be re-built from scratch. Once that’s done, navigate to the Add Component button at the top left of the window, in the Components pane. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide99.PNG "Duplicate Character for Testing")
 
+In the search bar, type in Pawn Sensing. The Pawn Sensing function allows the AI to interact or sense the main character in the game, and then perform various tasks including following the main character and exploding or catching on fire. Once that is done, click compile. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide100.PNG "pawn Sensing")
 
-
+Select the Pawn Sensing component from the pane on the left, then right-click in the Blueprints window and create a node titled Add On See Pawn. A red event node is created. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide101.PNG "On See Pawn")
 
 
 
