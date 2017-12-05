@@ -200,6 +200,10 @@ Navigate back to the scene window, and from the World Outliner, type in skyspher
 
 From the ‘SkySphereBlueprint’ node, drag a connector off the blue pin and type ‘Update Sun Direction’ to create the corresponding node. This node controls the direction of the sun’s light as it moves over the scene. Drag a connector from the white pin of the ‘Set Actor Rotation’ node and link it to the white pin on the ‘Update Sun Direction’ node. Now the rotation and the sunlight direction are linked, so when the sun rotates the light direction changes accordingly. The Blueprint is ready. Click on Compile, then return to the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide93.PNG "Light Direction")
 
+In the scene editor window, click on Build > Build Lighting Only to rebuild the lighting and link up the new assets within this scene. The lighting has to re-built to reflect the most up-to-date settings for the lighting assets (worked on in Blueprints) otherwise the scene will default to the current lighting state and the changes will not be played out in the scene during simulation. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide94.PNG "Rebuilding Lighting")
+
+A message at the bottom right of the screen will provide information on far along the build for the lighting has progressed. Once the build is complete, press the play button from the icon menu above to simulate the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide95.PNG "Lighting Re-Built")
+
 
 
 <h4>References and Sources of Learning:</h4>
