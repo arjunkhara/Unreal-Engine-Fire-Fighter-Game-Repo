@@ -204,7 +204,9 @@ In the scene editor window, click on Build > Build Lighting Only to rebuild the 
 
 A message at the bottom right of the screen will provide information on far along the build for the lighting has progressed. Once the build is complete, press the play button from the icon menu above to simulate the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide95.PNG "Lighting Re-Built")
 
+The sun is now moving across the sky at one second per hour representation. Notice also that the colours of the sky change as the sun dips and rises and the shadows grow long and short accordingly. This is because the light direction was set accordingly in the Blueprints. These values can be changed in the timeline editor. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide96.PNG "Scene Testing")
 
+This is the completed Blueprint for the day-night cycle, complete with the nodes, connections, and flow of logic that is being used in the scene. This Blueprint will be used in the group’s Fire Fighter game to provide a more realistic environment with the addition of a day-night cycle. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide97.PNG "Completed Blueprint")
 
 <h4>References and Sources of Learning:</h4>
 
