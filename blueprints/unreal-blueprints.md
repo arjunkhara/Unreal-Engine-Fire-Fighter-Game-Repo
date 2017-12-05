@@ -241,7 +241,7 @@ Once again, navigate back to the Cast To Third Person Character node, then drag 
 
 Connect the pin titled My Health on this new node to the top pin of the -integer node. In the bottom pin of the -integer node, type in 34 in the numbers value box. Note that this box is a percentage, so that every hit takes away a percentage of the player’s life. By setting it to 34, the player has three chances before all life is gone (i.e. when the total hits exceed 100%). When this is done, click compile. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide112.PNG "Three Lives Given to Player")
 
-
+If for any reason the AI does not follow the main player, navigate to the left pane, click on Volumes > Nav Mesh Bounds Volume and drag this bounding box onto the scene. Scale up the box to as big as possible to cover the entire play area. I used 30 for the X, Y, and Z values. Once done, click play and begin running immediately. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide113.PNG "Volume Bound Mesh")
 
 
 
