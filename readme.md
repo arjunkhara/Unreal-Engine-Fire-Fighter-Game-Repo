@@ -45,3 +45,5 @@ Audio composition: to make a range of sounds, lots of blending is required. Engi
 In Unreal Engine, there are special objects for dialog construction, example the speaker or the target. Cinematics are also used to create these sound effects in Unreal Engine. Subtle sounds filling an environment are typically a good way to make gameplay more interesting. Sound sources and listeners can be placed around the scene to let the player experience a more realistic gameplay.
 
 <hr/>
+
+<h4>Project Team</h4>: Sarah Chalk has officially withdrawn from the group project and module, owing to personal reasons. The project will continue under the direction of Daniel and Arjun, who will manage the modelling assets and Blueprints in Unreal. We are aiming to complete the entire game project by 13 December 2017, then leave a time lead for further refinements and add-ons.
