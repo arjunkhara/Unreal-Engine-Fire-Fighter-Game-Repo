@@ -34,6 +34,8 @@ In a game we want to communicate sound from a virtual world a real human listene
 
 The basic components of sound are: 3D position; velocity (Doppler effect); ear separation; ear geometry; and the speaker system in use (e.g. 5.1 speaker system, Dolby Surround Sound, headphones etc.). How one is experiencing / hearing the sound affects how the sound is designed. Sound travel in waves and these waves move in phases, which regulates how the sound is experienced. 
 
+Sounds coming from up or down are experienced differently. Sound coming from top comes directly to the listener whereas sound coming from down is absorbed into the ground. In games, this effect is created by using filters. Similarly, sound spaces create different experiences. In a church the sound is different from that in cupboard. The time delay is an important factor, which is why church music is played slower. Likewise, a football stadium will have a different sound speed and will correspondingly affect the acoustic.
+
 
 
 
