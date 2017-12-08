@@ -40,6 +40,8 @@ Sound spaces are measured using chirps and clicks. Once these chirps and clicks 
 
 The Doppler effect is the relative compression and expansion of sound waves juxtaposed with the position of the listener. The Doppler effect is essential for realistic sound effects and audio composition. 
 
+Audio composition: to make a range of sounds, lots of blending is required. Engines at 1000 RPM and engines at 1500 RPM can be blended. Different filters are used with different microphones attached to all the points around, say a car. Ambient sounds create mood in the game. Subtle changes in the ambient sound work as signals for players. Ambient sounds are particularly important for horror and survival game genres.
+
 
 
 
