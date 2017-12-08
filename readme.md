@@ -38,6 +38,8 @@ Sounds coming from up or down are experienced differently. Sound coming from top
 
 Sound spaces are measured using chirps and clicks. Once these chirps and clicks have been configured, the point audio effects can be applied. The high pass filter are the high sounds that can be heard (for example listening to someone's headphones in a train). The low pass filter are the low sounds that can be heard (for example the old telephone conversations). A chorus effect makes a single voice sound like many. The echo or reverb effect is a the same sound played back with a deliberate delay. Changing from one sound to another is never a hard cut. A cross-fade slowly blends one sound into another. Likewise, a pitch-shift slowly changes the pitch. Cutting off a sound abruptly creates a click, which is not appropriate for games.
 
+The Doppler effect is the relative compression and expansion of sound waves juxtaposed with the position of the listener. The Doppler effect is essential for realistic sound effects and audio composition. 
+
 
 
 
