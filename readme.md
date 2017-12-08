@@ -26,3 +26,13 @@ The Project Modeller is responsible for the integrity of the models and assets t
 
 <h4>Progress Report</h4>: Based on the use of a variable to switch between suppressants, the need for multiple nozzles in the game is now moot. Dan has figured out a way to use a variable to switch between the three suppressants, therefore eliminating any animation required to demonstrate the switching action. Therefore only one nozzle will be used within the game, from which the different suppressant types will flow. The tanks will continue to remain in the game and will be positioned on either side of the player rather than behind the player. Initial demos of the game reflect this as an advantage to gameplay.
 
+<hr/>
+
+<h2>Introduction to Audio</h2>
+
+In a game we want to communicate sound from a virtual world a real human listener. Therefore a monoaural sound (not stereo) is required within a 3D location. A virtual microphone called a listener (usually attached to a character) is what creates the changes in sound a 3D-simulated world.To create sound, a sound clip is required. These clips are cut into smaller pieces and pieced together to create a smooth output.
+
+
+
+
+<hr/>
