@@ -42,7 +42,6 @@ The Doppler effect is the relative compression and expansion of sound waves juxt
 
 Audio composition: to make a range of sounds, lots of blending is required. Engines at 1000 RPM and engines at 1500 RPM can be blended. Different filters are used with different microphones attached to all the points around, say a car. Ambient sounds create mood in the game. Subtle changes in the ambient sound work as signals for players. Ambient sounds are particularly important for horror and survival game genres.
 
-
-
+In Unreal Engine, there are special objects for dialog construction, example the speaker or the target. Cinematics are also used to create these sound effects in Unreal Engine. Subtle sounds filling an environment are typically a good way to make gameplay more interesting. Sound sources and listeners can be placed around the scene to let the player experience a more realistic gameplay.
 
 <hr/>
