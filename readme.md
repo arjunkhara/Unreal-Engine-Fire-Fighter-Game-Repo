@@ -36,6 +36,8 @@ The basic components of sound are: 3D position; velocity (Doppler effect); ear s
 
 Sounds coming from up or down are experienced differently. Sound coming from top comes directly to the listener whereas sound coming from down is absorbed into the ground. In games, this effect is created by using filters. Similarly, sound spaces create different experiences. In a church the sound is different from that in cupboard. The time delay is an important factor, which is why church music is played slower. Likewise, a football stadium will have a different sound speed and will correspondingly affect the acoustic.
 
+Sound spaces are measured using chirps and clicks. Once these chirps and clicks have been configured, the point audio effects can be applied. The high pass filter are the high sounds that can be heard (for example listening to someone's headphones in a train). The low pass filter are the low sounds that can be heard (for example the old telephone conversations). A chorus effect makes a single voice sound like many. The echo or reverb effect is a the same sound played back with a deliberate delay. Changing from one sound to another is never a hard cut. A cross-fade slowly blends one sound into another. Likewise, a pitch-shift slowly changes the pitch. Cutting off a sound abruptly creates a click, which is not appropriate for games.
+
 
 
 
