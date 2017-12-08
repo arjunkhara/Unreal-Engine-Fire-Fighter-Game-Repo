@@ -32,6 +32,8 @@ The Project Modeller is responsible for the integrity of the models and assets t
 
 In a game we want to communicate sound from a virtual world a real human listener. Therefore a monoaural sound (not stereo) is required within a 3D location. A virtual microphone called a listener (usually attached to a character) is what creates the changes in sound a 3D-simulated world.To create sound, a sound clip is required. These clips are cut into smaller pieces and pieced together to create a smooth output.
 
+The basic components of sound are: 3D position; velocity (Doppler effect); ear separation; ear geometry; and the speaker system in use (e.g. 5.1 speaker system, Dolby Surround Sound, headphones etc.). How one is experiencing / hearing the sound affects how the sound is designed. Sound travel in waves and these waves move in phases, which regulates how the sound is experienced. 
+
 
 
 
