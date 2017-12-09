@@ -265,7 +265,7 @@ With the base material applied using Blueprints, I navigated to the Materials fo
 
 The final step was to integrate the chair into the scene and scale its size to fit with the rest of the game objects. As this chair will be a haunted item (i.e. will have its own laws of physics) it is important that the chair look and feel as natural as possible so that when the non-physical behaviour commences, the player's experience of the haunted fire tunnel will possibly be enhanced. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide121.PNG "Chair Integration")
 
-
+In creating the smokey hissing sound for when an object's fire is extinguished, we created a Blueprint logic that blasts the sound initially, but then fades the sound out to create a more realistic suppressant effect. We were able to achieve this logic for all objects by applying a FadeOut function to the pre-built sounds offered within Unreal Engine. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide122.PNG "Smoke Fade Out Sound")
 
 
 <h4>References and Sources of Learning:</h4>
