@@ -253,6 +253,8 @@ In several instances, a GitHub credential error might occur, which prevents push
 
 If an error such as the one documented above is encountered, proceed to do the following: Make sure Git is installed on the computer encountering the error. Open GitHub Desktop > Repository > Open in Command Prompt. In the Command Prompt type the following line of code: <pre><code>del /f .git\hooks\pre-push</code></pre> and ensure that all spaces are followed exactly as typed in the code. Hit 'Enter' or 'Return' then push the commits again. (This fix is for Windows but also works on Mac. For Mac computers, follow the exact procedure described, but use the Terminal app instead of the Command Prompt). The image of the fix screen is as follows: ![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints-images-folder/GitHub-Credential-Fix.PNG "GitHub Credential Fix")
 
+The FBX asset for the barbecue stove has been completed and imported into the Blueprints folder. The asset interacts with the player as a game object and can now be manipulated through Unreal Engine's Blueprint programme options. In this example I have overlaid the barbecue stove asset with an object on fire to preview the effect as it would appear during gameplay. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide117.PNG "BBQ Stove FBX")
+
 
 
 <h4>References and Sources of Learning:</h4>
