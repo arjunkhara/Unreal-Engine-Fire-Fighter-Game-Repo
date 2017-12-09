@@ -1,4 +1,4 @@
-﻿Log file open, 12/08/17 11:45:47
+﻿Log file open, 12/09/17 15:01:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FF_Extinguish
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(585057125) SRandInit(585057125).
+LogInit: Display: RandInit(-202948647) SRandInit(-202948647).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.180171
+LogStats: Stats thread started at 0.167250
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,597 +196,687 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.08-11.45.49:503][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.08-11.45.49:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.08-11.45.49:512][  0]LogInit: Computer: DESKTOP-TSBI93C
-[2017.12.08-11.45.49:512][  0]LogInit: User: ArjunKhara
-[2017.12.08-11.45.49:512][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.08-11.45.49:512][  0]LogInit: High frequency timer resolution =2.835938 MHz
-[2017.12.08-11.45.49:513][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.12.08-11.45.49:513][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.08-11.45.49:513][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
-[2017.12.08-11.45.49:513][  0]LogMemory: Process Virtual Memory: 271.75 MB used, 271.75 MB peak
-[2017.12.08-11.45.49:513][  0]LogMemory: Physical Memory: 7960.99 MB used,  24679.95 MB free, 32640.94 MB total
-[2017.12.08-11.45.49:513][  0]LogMemory: Virtual Memory: 679.39 MB used,  24679.95 MB free, 134217728.00 MB total
-[2017.12.08-11.45.50:983][  0]LogInit: Using OS detected language (en-US).
-[2017.12.08-11.45.50:984][  0]LogInit: Using OS detected locale (en-GB).
-[2017.12.08-11.45.50:992][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.08-11.45.51:984][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.08-11.45.52:434][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.08-11.45.52:524][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (Feature Level 11_0)
-[2017.12.08-11.45.52:524][  0]LogD3D11RHI:       8071/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.12.08-11.45.52:567][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2017.12.08-11.45.52:567][  0]LogD3D11RHI:       128/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.12.08-11.45.52:575][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.08-11.45.52:575][  0]LogD3D11RHI:       0/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.08-11.45.52:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.08-11.45.52:595][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.08-11.45.52:596][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.08-11.45.52:596][  0]LogWindows: EnumDisplayDevices:
-[2017.12.08-11.45.52:596][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:1 D:1)
-[2017.12.08-11.45.52:597][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2017.12.08-11.45.52:597][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2017.12.08-11.45.52:597][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2017.12.08-11.45.52:598][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.12.08-11.45.52:599][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.12.08-11.45.52:599][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.12.08-11.45.52:599][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.12.08-11.45.52:599][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 with Max-Q Design
-[2017.12.08-11.45.52:599][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.12.08-11.45.52:599][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.12.08-11.45.52:599][  0]LogRHI: Texture pool is 5649 MB (70% of 8071 MB)
-[2017.12.08-11.45.52:652][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.08-11.45.52:671][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.08-11.45.52:719][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Intermediate/Shaders/WorkingDirectory/4384/).
-[2017.12.08-11.45.52:720][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arjun Khara/AppData/Local/Temp/UnrealShaderWorkingDir/2AEE5BEC43D72B2801C35096213C9754/'.
-[2017.12.08-11.45.52:720][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.08-11.45.54:313][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.08-11.45.54:380][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.08-11.45.54:440][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.08-11.45.54:595][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.08-11.45.54:723][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.08-11.45.54:955][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.08-11.45.55:124][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.08-11.45.55:202][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.08-11.45.55:261][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.08-11.45.55:321][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.08-11.45.55:383][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.08-11.45.55:445][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.08-11.45.55:507][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.08-11.45.55:567][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.08-11.45.55:690][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.08-11.45.55:690][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.08-11.45.55:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.08-11.45.55:803][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.08-11.45.55:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.08-11.45.55:986][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.08-11.45.56:066][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.08-11.45.56:127][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.08-11.45.56:189][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.08-11.45.56:250][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.08-11.45.56:250][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.08-11.45.57:141][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.08-11.45.57:195][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.08-11.45.57:195][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.08-11.45.57:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.08-11.45.57:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.08-11.45.57:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.08-11.45.57:196][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.08-11.45.57:211][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.08-11.45.57:224][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arjun Khara/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.08-11.45.57:234][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.08-11.45.57:234][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.08-11.45.57:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.08-11.45.57:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.08-11.45.58:025][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.08-11.45.58:574][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.08-11.45.58:681][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.08-11.45.58:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.08-11.45.58:681][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.08-11.45.58:681][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.08-11.45.58:681][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.08-11.45.58:706][  0]LogNetVersion: FF_Extinguish , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 374121185)
-[2017.12.08-11.45.59:215][  0]LogAssetRegistry: FAssetRegistry took 0.0390 seconds to start up
-[2017.12.08-11.46.00:545][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.204990 seconds
-[2017.12.08-11.46.00:560][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.08-11.46.00:560][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2017.12.08-11.46.00:561][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.08-11.46.00:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.08-11.46.07:692][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.08-11.46.07:773][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.08-11.46.09:039][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.08-11.46.10:437][  0]SourceControl: Source control is disabled
-[2017.12.08-11.46.10:437][  0]SourceControl: Source control is disabled
-[2017.12.08-11.46.10:595][  0]SourceControl: Source control is disabled
-[2017.12.08-11.46.10:847][  0]SourceControl: Source control is disabled
-[2017.12.08-11.46.12:838][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.08-11.46.13:976][  0]LogOcInput: OculusInput pre-init called
-[2017.12.08-11.46.14:414][  0]LogEngine: Initializing Engine...
-[2017.12.08-11.46.14:416][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.08-11.46.14:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.08-11.46.14:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.08-11.46.15:102][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.08-11.46.15:109][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.12.08-11.46.15:176][  0]LogInit: FAudioDevice initialized.
-[2017.12.08-11.46.15:234][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.08-11.46.15:240][  0]LogInit: Texture streaming: Enabled
-[2017.12.08-11.46.15:510][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.08-11.46.15:884][  0]LogInit: Transaction tracking system initialized
-[2017.12.08-11.46.16:277][  0]BlueprintLog: New page: Editor Load
-[2017.12.08-11.46.19:610][  0]LocalizationService: Localization service is disabled
-[2017.12.08-11.46.22:115][  0]LogConsoleResponse: Display: 
-[2017.12.08-11.46.22:435][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.08-11.46.22:435][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.08-11.46.22:435][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.08-11.46.23:330][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/' took 0.01s
-[2017.12.08-11.46.26:243][  0]SourceControl: Source control is disabled
-[2017.12.08-11.46.26:243][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.08-11.46.26:244][  0]LightingResults: New page: Lighting Build
-[2017.12.08-11.46.26:321][  0]MapCheck: New page: Map Check
-[2017.12.08-11.46.26:322][  0]LightingResults: New page: Lighting Build
-[2017.12.08-11.46.27:726][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.08-11.46.27:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.08-11.46.27:747][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.08-11.46.27:807][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.884ms to complete.
-[2017.12.08-11.46.27:807][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.564
-[2017.12.08-11.46.27:904][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.08-11.46.28:209][  0]LogCollectionManager: Loaded 0 collections in 0.005792 seconds
-[2017.12.08-11.46.28:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Collections/' took 0.01s
-[2017.12.08-11.46.28:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Developers/ArjunKhara/Collections/' took 0.01s
-[2017.12.08-11.46.28:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Collections/' took 0.01s
-[2017.12.08-11.46.28:527][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.08-11.46.28:556][  0]LogContentBrowser: Native class hierarchy populated in 0.0292 seconds. Added 2363 classes and 519 folders.
-[2017.12.08-11.46.28:935][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.12.08-11.46.29:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.12.08-11.46.29:311][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.12.08-11.46.29:348][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.08-11.46.29:352][  0]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.08-11.46.29:365][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.08-11.46.29:665][  0]LogRenderer: Reallocating scene render targets to support 968x492 Format 10 NumSamples 1 (Frame:1).
-[2017.12.08-11.46.30:183][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.12.08-11.46.30:183][  0]LogLoad: (Engine Initialization) Total time: 43.39 seconds
-[2017.12.08-11.46.30:183][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.08-11.46.30:183][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.08-11.46.30:238][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.08-11.46.30:378][  0]LogSlate: Took 0.000537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-11.46.30:467][  2]LogAssetRegistry: Asset discovery search completed in 31.2750 seconds
-[2017.12.08-11.46.30:471][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.08-11.46.30:472][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
-[2017.12.08-11.46.31:304][ 16]LogSlate: Took 0.000551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-11.46.33:727][ 72]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-11.46.34:410][ 72]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2017.12.08-11.46.35:494][ 72]LogSlate: Took 0.000474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.08-11.46.35:757][ 73]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.08-11.46.40:442][226]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.08-11.46.40:478][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.46.40:478][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-11.46.40:479][226]PIE: New page: PIE session: FirstPersonExampleMap (8 Dec 2017 11:46:40)
-[2017.12.08-11.46.40:479][226]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.08-11.46.40:500][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021109s)
-[2017.12.08-11.46.40:501][226]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.08-11.46.40:501][226]LogPlayLevel: PIE: World Init took: (0.000707s)
-[2017.12.08-11.46.40:501][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022084s)
-[2017.12.08-11.46.40:522][226]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.12.08-11.46.40:590][226]LogInit: FAudioDevice initialized.
-[2017.12.08-11.46.40:644][226]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.08-11.46.40:652][226]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.08-11.46.40
-[2017.12.08-11.46.40:653][226]LogWorld: Bringing up level for play took: 0.005052
-[2017.12.08-11.46.40:748][226]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2017.12.08-11.46.40:749][226]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.665
-[2017.12.08-11.46.40:749][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.47.29:876][200]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.01.44:795][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-15.01.44:795][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-15.01.44:816][  0]LogInit: Computer: DESKTOP-TSBI93C
+[2017.12.09-15.01.44:816][  0]LogInit: User: ArjunKhara
+[2017.12.09-15.01.44:816][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.09-15.01.44:816][  0]LogInit: High frequency timer resolution =2.835938 MHz
+[2017.12.09-15.01.44:817][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.09-15.01.44:817][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-15.01.44:817][  0]LogMemory: Process Physical Memory: 273.32 MB used, 273.32 MB peak
+[2017.12.09-15.01.44:817][  0]LogMemory: Process Virtual Memory: 271.88 MB used, 271.88 MB peak
+[2017.12.09-15.01.44:818][  0]LogMemory: Physical Memory: 8633.12 MB used,  24007.82 MB free, 32640.94 MB total
+[2017.12.09-15.01.44:818][  0]LogMemory: Virtual Memory: 679.39 MB used,  24007.82 MB free, 134217728.00 MB total
+[2017.12.09-15.01.45:659][  0]LogInit: Using OS detected language (en-US).
+[2017.12.09-15.01.45:659][  0]LogInit: Using OS detected locale (en-GB).
+[2017.12.09-15.01.45:661][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.09-15.01.46:044][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.09-15.01.46:305][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-15.01.46:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (Feature Level 11_0)
+[2017.12.09-15.01.46:353][  0]LogD3D11RHI:       8071/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.09-15.01.46:374][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.09-15.01.46:374][  0]LogD3D11RHI:       128/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.09-15.01.46:376][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-15.01.46:376][  0]LogD3D11RHI:       0/0/16320 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-15.01.46:376][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-15.01.46:383][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-15.01.46:384][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-15.01.46:384][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-15.01.46:384][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:1 D:1)
+[2017.12.09-15.01.46:384][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-15.01.46:384][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.09-15.01.46:384][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 with Max-Q Design
+[2017.12.09-15.01.46:384][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.09-15.01.46:384][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.09-15.01.46:384][  0]LogRHI: Texture pool is 5649 MB (70% of 8071 MB)
+[2017.12.09-15.01.46:406][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-15.01.46:419][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.09-15.01.46:466][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Intermediate/Shaders/WorkingDirectory/19972/).
+[2017.12.09-15.01.46:467][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arjun Khara/AppData/Local/Temp/UnrealShaderWorkingDir/B339FA734A6A31541CBE14AFA0C390B1/'.
+[2017.12.09-15.01.46:467][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.09-15.01.47:445][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-15.01.47:514][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-15.01.47:579][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-15.01.47:661][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-15.01.47:724][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.09-15.01.47:790][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-15.01.47:855][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-15.01.47:919][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-15.01.47:976][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-15.01.48:039][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-15.01.48:103][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-15.01.48:196][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-15.01.48:298][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-15.01.48:364][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-15.01.48:495][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-15.01.48:495][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-15.01.48:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-15.01.48:640][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-15.01.48:748][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.09-15.01.48:815][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-15.01.48:879][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-15.01.48:941][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-15.01.49:004][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-15.01.49:068][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-15.01.49:068][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.09-15.01.49:746][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-15.01.49:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-15.01.49:816][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-15.01.49:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arjun Khara/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-15.01.49:837][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.09-15.01.49:837][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-15.01.49:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-15.01.49:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-15.01.50:251][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-15.01.50:659][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-15.01.50:713][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-15.01.50:713][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-15.01.50:713][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.09-15.01.50:713][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.09-15.01.50:713][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.09-15.01.50:739][  0]LogNetVersion: FF_Extinguish , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 374121185)
+[2017.12.09-15.01.50:960][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.12.09-15.01.51:451][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060411 seconds
+[2017.12.09-15.01.51:455][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.09-15.01.51:455][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.09-15.01.51:455][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-15.01.51:530][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.09-15.01.54:881][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-15.01.54:929][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-15.01.55:992][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-15.01.56:578][  0]SourceControl: Source control is disabled
+[2017.12.09-15.01.56:578][  0]SourceControl: Source control is disabled
+[2017.12.09-15.01.56:654][  0]SourceControl: Source control is disabled
+[2017.12.09-15.01.56:723][  0]SourceControl: Source control is disabled
+[2017.12.09-15.01.57:894][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.09-15.01.58:272][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-15.01.58:675][  0]LogEngine: Initializing Engine...
+[2017.12.09-15.01.58:677][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.09-15.01.58:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-15.01.58:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-15.01.59:034][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-15.01.59:041][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.12.09-15.01.59:681][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-15.01.59:742][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/Arjun Khara/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-15.01.59:749][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-15.01.59:883][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-15.02.00:056][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-15.02.00:557][  0]BlueprintLog: New page: Editor Load
+[2017.12.09-15.02.01:833][  0]LocalizationService: Localization service is disabled
+[2017.12.09-15.02.02:954][  0]LogConsoleResponse: Display: 
+[2017.12.09-15.02.03:143][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-15.02.03:143][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.09-15.02.03:143][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.09-15.02.03:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/' took 0.01s
+[2017.12.09-15.02.04:784][  0]SourceControl: Source control is disabled
+[2017.12.09-15.02.04:784][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-15.02.04:784][  0]LightingResults: New page: Lighting Build
+[2017.12.09-15.02.04:842][  0]MapCheck: New page: Map Check
+[2017.12.09-15.02.04:842][  0]LightingResults: New page: Lighting Build
+[2017.12.09-15.02.05:399][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-15.02.05:412][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-15.02.05:423][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-15.02.05:486][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.909ms to complete.
+[2017.12.09-15.02.05:486][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.702
+[2017.12.09-15.02.05:559][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-15.02.05:678][  0]LogCollectionManager: Loaded 0 collections in 0.001313 seconds
+[2017.12.09-15.02.05:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Collections/' took 0.01s
+[2017.12.09-15.02.05:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Developers/ArjunKhara/Collections/' took 0.01s
+[2017.12.09-15.02.05:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Collections/' took 0.01s
+[2017.12.09-15.02.05:803][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.09-15.02.05:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2363 classes and 519 folders.
+[2017.12.09-15.02.05:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.09-15.02.05:946][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.09-15.02.06:002][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.09-15.02.06:018][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-15.02.06:020][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-15.02.06:024][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-15.02.06:114][  0]LogRenderer: Reallocating scene render targets to support 968x492 Format 10 NumSamples 1 (Frame:1).
+[2017.12.09-15.02.06:329][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.09-15.02.06:329][  0]LogLoad: (Engine Initialization) Total time: 24.02 seconds
+[2017.12.09-15.02.06:329][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.09-15.02.06:329][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.09-15.02.06:370][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-15.02.06:404][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-15.02.06:427][  1]LogAssetRegistry: Asset discovery search completed in 15.4900 seconds
+[2017.12.09-15.02.06:429][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.09-15.02.06:429][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.12.09-15.02.07:363][ 56]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-15.02.14:451][481]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-15.02.14:488][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.02.14:488][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-15.02.14:489][481]PIE: New page: PIE session: FirstPersonExampleMap (9 Dec 2017 15:02:14)
+[2017.12.09-15.02.14:489][481]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.12.09-15.02.14:509][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019610s)
+[2017.12.09-15.02.14:509][481]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-15.02.14:509][481]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2017.12.09-15.02.14:510][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020742s)
+[2017.12.09-15.02.14:520][481]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.12.09-15.02.14:584][481]LogInit: FAudioDevice initialized.
+[2017.12.09-15.02.14:626][481]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-15.02.14:635][481]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.09-15.02.14
+[2017.12.09-15.02.14:636][481]LogWorld: Bringing up level for play took: 0.005646
+[2017.12.09-15.02.14:717][481]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2017.12.09-15.02.14:718][481]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.373
+[2017.12.09-15.02.14:718][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.02.16:295][575]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
 	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_2
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.29:877][200]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.29:941][202]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_4
+[2017.12.09-15.02.16:295][575]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.02.18:362][699]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_21
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.29:941][202]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.29:941][202]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_4
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.29:942][202]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.30:172][209]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.30:172][209]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.30:700][225]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_9
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.30:701][225]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.30:733][226]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_9
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.30:733][226]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.30:798][228]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_20
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.30:798][228]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.31:595][252]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.31:595][252]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.31:629][253]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.31:630][253]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.33:647][314]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_42
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.33:648][314]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.35:629][374]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_63
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.35:629][374]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.35:905][381]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_74
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.35:905][381]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.36:333][394]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_74
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.36:333][394]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.36:994][414]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_74
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.36:994][414]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.36:995][414]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_74
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.47.36:995][414]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.47.37:787][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.47.37:867][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.47.59:930][645]BlueprintLog: New page: Compile FirstPersonProjectile
-[2017.12.08-11.48.05:355][770]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.08-11.48.05:368][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.48.05:368][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-11.48.05:369][770]PIE: New page: PIE session: FirstPersonExampleMap (8 Dec 2017 11:48:05)
-[2017.12.08-11.48.05:369][770]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.08-11.48.05:382][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013531s)
-[2017.12.08-11.48.05:383][770]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.08-11.48.05:383][770]LogPlayLevel: PIE: World Init took: (0.000630s)
-[2017.12.08-11.48.05:383][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014409s)
-[2017.12.08-11.48.05:403][770]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.12.08-11.48.05:473][770]LogInit: FAudioDevice initialized.
-[2017.12.08-11.48.05:514][770]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.08-11.48.05:520][770]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.08-11.48.05
-[2017.12.08-11.48.05:521][770]LogWorld: Bringing up level for play took: 0.004881
-[2017.12.08-11.48.05:524][770]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.56
-[2017.12.08-11.48.05:525][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.48.07:447][881]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.02.18:363][699]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.02.23:613][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.02.23:649][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.02.30:948][448]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-15.02.31:238][448]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2017.12.09-15.02.31:856][448]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.09-15.02.31:933][449]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.09-15.02.34:015][569]LogSavePackage: Save=39.28ms
+[2017.12.09-15.02.34:015][569]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonProjectile93BFF69F4BD9E33137D6D8BE3CCA7986.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2017.12.09-15.02.34:016][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2017.12.09-15.02.40:389][729]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Arjun Khara/Desktop/BBQ-Stove.fbx)
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: Geometry, ItemCount : 10
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: Material, ItemCount : 14
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: Model, ItemCount : 14
+[2017.12.09-15.02.40:409][729]LogFbx: ItemName: NodeAttribute, ItemCount : 4
+[2017.12.09-15.02.40:416][729]LogFbx: Loading FBX Scene from ../../../../../../Users/Arjun Khara/Desktop/BBQ-Stove.fbx
+[2017.12.09-15.02.40:436][729]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.09-15.02.49:629][729]LogFbx: Loading FBX Scene from ../../../../../../Users/Arjun Khara/Desktop/BBQ-Stove.fbx
+[2017.12.09-15.02.49:644][729]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.09-15.02.49:648][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn3'
+[2017.12.09-15.02.49:648][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn3'
+[2017.12.09-15.02.49:653][729]LogMaterial: Missing cached shader map for material blinn3, compiling. 
+[2017.12.09-15.02.49:687][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn4'
+[2017.12.09-15.02.49:687][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn4'
+[2017.12.09-15.02.49:692][729]LogMaterial: Missing cached shader map for material blinn4, compiling. 
+[2017.12.09-15.02.49:710][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn5'
+[2017.12.09-15.02.49:711][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn5'
+[2017.12.09-15.02.49:715][729]LogMaterial: Missing cached shader map for material blinn5, compiling. 
+[2017.12.09-15.02.49:739][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn11'
+[2017.12.09-15.02.49:739][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn11'
+[2017.12.09-15.02.49:745][729]LogMaterial: Missing cached shader map for material blinn11, compiling. 
+[2017.12.09-15.02.49:768][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn7'
+[2017.12.09-15.02.49:768][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn7'
+[2017.12.09-15.02.49:773][729]LogMaterial: Missing cached shader map for material blinn7, compiling. 
+[2017.12.09-15.02.49:794][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn6'
+[2017.12.09-15.02.49:794][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn6'
+[2017.12.09-15.02.49:799][729]LogMaterial: Missing cached shader map for material blinn6, compiling. 
+[2017.12.09-15.02.49:825][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert3'
+[2017.12.09-15.02.49:825][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert3'
+[2017.12.09-15.02.49:829][729]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2017.12.09-15.02.49:848][729]LogFbx: Warning: Triangulating static mesh pCube1
+[2017.12.09-15.02.50:018][729]LogStaticMesh: Building static mesh BBQ-Stove_pCube1...
+[2017.12.09-15.02.50:440][729]LogStaticMesh: Built static mesh [0.42s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1.BBQ-Stove_pCube1
+[2017.12.09-15.02.50:465][729]LogStaticMesh: Warning: BBQ-Stove_pCube1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.12.09-15.02.50:465][729]LogStaticMesh: Warning: BBQ-Stove_pCube1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2017.12.09-15.02.50:497][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert1'
+[2017.12.09-15.02.50:498][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert1'
+[2017.12.09-15.02.50:502][729]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.12.09-15.02.50:526][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn9'
+[2017.12.09-15.02.50:527][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn9'
+[2017.12.09-15.02.50:532][729]LogMaterial: Missing cached shader map for material blinn9, compiling. 
+[2017.12.09-15.02.50:556][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn8'
+[2017.12.09-15.02.50:556][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn8'
+[2017.12.09-15.02.50:562][729]LogMaterial: Missing cached shader map for material blinn8, compiling. 
+[2017.12.09-15.02.50:585][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn10'
+[2017.12.09-15.02.50:585][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn10'
+[2017.12.09-15.02.50:590][729]LogMaterial: Missing cached shader map for material blinn10, compiling. 
+[2017.12.09-15.02.50:615][729]LogFbx: Warning: Triangulating static mesh pCylinder4
+[2017.12.09-15.02.50:617][729]LogStaticMesh: Building static mesh BBQ-Stove_pCylinder4...
+[2017.12.09-15.02.50:620][729]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4.BBQ-Stove_pCylinder4
+[2017.12.09-15.02.50:627][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/gas_tank'
+[2017.12.09-15.02.50:628][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/gas_tank'
+[2017.12.09-15.02.50:632][729]LogMaterial: Missing cached shader map for material gas_tank, compiling. 
+[2017.12.09-15.02.50:655][729]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-15.02.50:659][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert2'
+[2017.12.09-15.02.50:660][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/lambert2'
+[2017.12.09-15.02.50:665][729]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.12.09-15.02.50:689][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn2'
+[2017.12.09-15.02.50:690][729]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/blinn2'
+[2017.12.09-15.02.50:694][729]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2017.12.09-15.02.50:719][729]LogFbx: Warning: Triangulating static mesh pCylinder5
+[2017.12.09-15.02.50:752][729]LogStaticMesh: Building static mesh BBQ-Stove_pCylinder5...
+[2017.12.09-15.02.50:785][729]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5.BBQ-Stove_pCylinder5
+[2017.12.09-15.02.50:797][729]LogFbx: Warning: Triangulating static mesh pCylinder6
+[2017.12.09-15.02.50:800][729]LogStaticMesh: Building static mesh BBQ-Stove_pCylinder6...
+[2017.12.09-15.02.50:803][729]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6.BBQ-Stove_pCylinder6
+[2017.12.09-15.02.50:810][729]LogFbx: Warning: Triangulating static mesh pCylinder7
+[2017.12.09-15.02.50:813][729]LogStaticMesh: Building static mesh BBQ-Stove_pCylinder7...
+[2017.12.09-15.02.50:816][729]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7.BBQ-Stove_pCylinder7
+[2017.12.09-15.02.50:823][729]LogFbx: Warning: Triangulating static mesh pCylinder8
+[2017.12.09-15.02.50:826][729]LogStaticMesh: Building static mesh BBQ-Stove_pCylinder8...
+[2017.12.09-15.02.50:829][729]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8.BBQ-Stove_pCylinder8
+[2017.12.09-15.02.50:841][729]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.12.09-15.02.50:841][729]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: BBQ-Stove_pCube1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: BBQ-Stove_pCube1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.02.50:842][729]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.09-15.03.23:966][705]LogActorFactory: Actor Factory created BBQ-Stove_pCube1
+[2017.12.09-15.03.24:401][731]LogActorFactory: Actor Factory created BBQ-Stove_pCube1
+[2017.12.09-15.03.45:296][981]LogActorFactory: Actor Factory created BBQ-Stove_pCylinder5
+[2017.12.09-15.03.45:815][ 12]LogActorFactory: Actor Factory created BBQ-Stove_pCylinder5
+[2017.12.09-15.03.54:057][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BBQ-Stove_pCylinder5)
+[2017.12.09-15.04.07:184][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.09-15.04.15:548][790]MapCheck: New page: Map Check
+[2017.12.09-15.04.15:562][790]LightingResults: New page: Lighting Build - 9 Dec 2017 15:04:15
+[2017.12.09-15.04.15:598][790]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.09-15.04.15:658][790]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.09-15.04.15:667][790]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.09-15.04.16:181][790]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.09-15.04.16:182][790]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19972
+[2017.12.09-15.04.18:585][790]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.09-15.04.18:585][790]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.09-15.04.18:585][790]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.09-15.04.18:585][790]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.09-15.04.18:585][790]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.09-15.04.18:773][790]LogEditorBuildUtils: Build time 0:03
+[2017.12.09-15.04.18:788][790]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn3, compiling. 
+[2017.12.09-15.04.18:793][790]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn3, compiling. 
+[2017.12.09-15.04.18:812][791]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn4, compiling. 
+[2017.12.09-15.04.18:818][791]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn4, compiling. 
+[2017.12.09-15.04.18:839][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn5, compiling. 
+[2017.12.09-15.04.18:845][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn5, compiling. 
+[2017.12.09-15.04.18:863][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn11, compiling. 
+[2017.12.09-15.04.18:868][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn11, compiling. 
+[2017.12.09-15.04.18:884][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn7, compiling. 
+[2017.12.09-15.04.18:890][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn7, compiling. 
+[2017.12.09-15.04.18:905][795]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn6, compiling. 
+[2017.12.09-15.04.18:912][795]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn6, compiling. 
+[2017.12.09-15.04.18:928][796]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2017.12.09-15.04.18:936][796]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2017.12.09-15.04.18:953][797]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn9, compiling. 
+[2017.12.09-15.04.18:959][797]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn9, compiling. 
+[2017.12.09-15.04.18:975][798]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2017.12.09-15.04.18:981][798]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2017.12.09-15.04.18:999][799]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn2, compiling. 
+[2017.12.09-15.04.19:005][799]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn2, compiling. 
+[2017.12.09-15.04.28:587][225]LightingResults: Warning: BBQ-Stove_pCube1 Object has overlapping UVs.
+[2017.12.09-15.04.28:587][225]LightingResults: BBQ-Stove_pCube1 Lightmap UV are overlapping by 4.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.09-15.04.28:728][233]LightingResults: Warning: BBQ-Stove_pCylinder5 Object has overlapping UVs.
+[2017.12.09-15.04.28:728][233]LightingResults: BBQ-Stove_pCylinder5 Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.09-15.04.58:218][993]Job is a success!
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:      BrickData 350x5x5 = 0.3Mb
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:      Bricks at Level
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:          1: 5.7% covering 6.3% of volume
+[2017.12.09-15.04.58:302][994]LogVolumetricLightmapImport:          2: 92.9% covering 1.6% of volume
+[2017.12.09-15.04.58:566][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn3.blinn3 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:568][994]LogMaterial: Missing cached shader map for material blinn3, compiling. 
+[2017.12.09-15.04.58:598][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn4.blinn4 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:601][994]LogMaterial: Missing cached shader map for material blinn4, compiling. 
+[2017.12.09-15.04.58:631][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn5.blinn5 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:633][994]LogMaterial: Missing cached shader map for material blinn5, compiling. 
+[2017.12.09-15.04.58:665][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn11.blinn11 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:668][994]LogMaterial: Missing cached shader map for material blinn11, compiling. 
+[2017.12.09-15.04.58:701][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn7.blinn7 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:704][994]LogMaterial: Missing cached shader map for material blinn7, compiling. 
+[2017.12.09-15.04.58:737][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn6.blinn6 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:740][994]LogMaterial: Missing cached shader map for material blinn6, compiling. 
+[2017.12.09-15.04.58:769][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/lambert3.lambert3 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:771][994]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2017.12.09-15.04.58:806][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn9.blinn9 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:808][994]LogMaterial: Missing cached shader map for material blinn9, compiling. 
+[2017.12.09-15.04.58:838][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/lambert2.lambert2 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:841][994]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.12.09-15.04.58:877][994]LogMaterial: Warning: Material /Game/FirstPersonBP/Blueprints/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.04.58:880][994]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 2048X1024)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 2048X2048)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2017.12.09-15.05.01:623][994]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2017.12.09-15.05.02:023][994]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2017.12.09-15.05.02:023][994]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
+[2017.12.09-15.05.02:024][994]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
+[2017.12.09-15.05.02:224][994]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
+[2017.12.09-15.05.02:424][994]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
+[2017.12.09-15.05.02:424][994]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2017.12.09-15.05.02:424][994]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 32X32)
+[2017.12.09-15.05.02:424][994]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X1024)
+[2017.12.09-15.05.02:518][994]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X1024)
+[2017.12.09-15.05.02:544][994]Lightmass on DESKTOP-TSBI93C: 40.4 sec total, 120 ms importing, 30 ms setup, 6.05 sec photons, 34.2 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 3:59 min total, 2:20 min processing.
+[2017.12.09-15.05.02:580][994]LogStaticLightingSystem: Illumination: 47.0 sec (2.69 sec encoding lightmaps, 893 ms encoding shadowmaps)
+[2017.12.09-15.05.02:580][994]LogStaticLightingSystem: Lightmap texture memory:  42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.12.09-15.05.02:581][994]LogStaticLightingSystem: Shadowmap texture memory: 9.3 MB (9.3 MB streaming, 0.0 MB non-streaming), 9 textures
+[2017.12.09-15.05.07:608][994]DumpUnbuiltLightIteractions
+[2017.12.09-15.05.07:608][994]Lights with unbuilt interactions: 0
+[2017.12.09-15.05.07:608][994]
+[2017.12.09-15.05.07:608][994]Primitives with unbuilt interactions: 0
+[2017.12.09-15.05.07:648][995]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.09-15.05.07:648][995]MapCheck: New page: FirstPersonExampleMap - 9 Dec 2017 15:05:07
+[2017.12.09-15.05.07:746][995]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.678ms to complete.
+[2017.12.09-15.05.26:131][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-15.05.26:141][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.05.26:141][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-15.05.26:141][ 97]PIE: New page: PIE session: FirstPersonExampleMap (9 Dec 2017 15:05:26)
+[2017.12.09-15.05.26:142][ 97]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.12.09-15.05.26:155][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012797s)
+[2017.12.09-15.05.26:156][ 97]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-15.05.26:156][ 97]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2017.12.09-15.05.26:156][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014068s)
+[2017.12.09-15.05.26:173][ 97]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.12.09-15.05.26:241][ 97]LogInit: FAudioDevice initialized.
+[2017.12.09-15.05.26:277][ 97]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-15.05.26:282][ 97]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.09-15.05.26
+[2017.12.09-15.05.26:282][ 97]LogWorld: Bringing up level for play took: 0.003893
+[2017.12.09-15.05.26:284][ 97]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.061
+[2017.12.09-15.05.26:285][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.05.28:410][220]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
 	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_2
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.07:447][881]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.09:292][987]LogScript: Warning: Accessed None trying to read property Sphere
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6
+[2017.12.09-15.05.28:410][220]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.29:777][302]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_14
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.09:292][987]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Sphere from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property Sphere
-[2017.12.08-11.48.09:392][993]LogScript: Warning: Accessed None trying to read property Sphere
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_10
+[2017.12.09-15.05.29:777][302]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.31:844][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-166.504 Y=-147.262 Z=295.740] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.31:994][435]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-161.443 Y=-153.566 Z=292.961] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.32:093][441]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-161.288 Y=-153.146 Z=294.995] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.34:243][570]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_50
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.09:392][993]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Sphere from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property Sphere
-[2017.12.08-11.48.14:636][304]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-122.601 Y=-62.996 Z=298.412] for [FirstPersonProjectile_C]
-[2017.12.08-11.48.14:905][320]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-129.613 Y=-62.828 Z=310.090] for [FirstPersonProjectile_C]
-[2017.12.08-11.48.14:922][321]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-109.381 Y=-61.975 Z=315.905] for [FirstPersonProjectile_C]
-[2017.12.08-11.48.15:949][382]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_23
+[2017.12.09-15.05.34:243][570]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.35:127][623]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_50
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.15:949][382]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.15:965][383]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_23
+[2017.12.09-15.05.35:127][623]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.35:660][655]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-133.030 Y=-118.442 Z=311.260] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:710][658]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-122.182 Y=-124.635 Z=313.049] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:795][663]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-134.528 Y=-117.586 Z=314.013] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:810][664]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_49
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.15:965][383]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.16:015][386]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_23
+[2017.12.09-15.05.35:811][664]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.35:828][665]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-131.497 Y=-119.322 Z=286.410] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:912][670]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-122.658 Y=-124.060 Z=306.953] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:928][671]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-121.623 Y=-124.939 Z=325.088] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.35:994][675]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-129.552 Y=-122.473 Z=331.024] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.36:011][676]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-137.379 Y=-118.415 Z=326.128] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.36:177][686]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_85
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.16:016][386]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.16:199][397]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_17
+[2017.12.09-15.05.36:177][686]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.37:326][755]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_116
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.16:200][397]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.16:923][440]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_26
+[2017.12.09-15.05.37:326][755]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.38:860][847]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_124
 	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
-[2017.12.08-11.48.16:923][440]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
-[2017.12.08-11.48.37:444][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.48.37:486][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.08-11.48.53:888][106]LogSavePackage: Save=91.29ms
-[2017.12.08-11.48.53:888][106]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonProjectileDB31C3904A935E1085356F8CC8D2C6A9.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.08-11.48.53:900][106]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.08-11.48.54:066][106]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.08-11.48.54:384][107]Cmd: QUIT_EDITOR
-[2017.12.08-11.48.55:415][107]LogExit: Preparing to exit.
-[2017.12.08-11.48.56:358][107]LogDirectoryWatcher: A directory notification for 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/' was aborted.
-[2017.12.08-11.48.56:453][107]LogExit: Editor shut down
-[2017.12.08-11.48.56:459][107]LogExit: Transaction tracking system shut down
-[2017.12.08-11.48.56:717][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.08-11.48.56:717][107]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/' was aborted.
-[2017.12.08-11.48.56:717][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.08-11.48.56:718][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.12.08-11.48.56:718][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.12.08-11.48.56:718][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.08-11.48.56:718][107]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.08-11.48.56:941][107]LogExit: Object subsystem successfully closed.
-[2017.12.08-11.48.56:983][107]LogD3D11RHI: Shutdown
-[2017.12.08-11.48.56:983][107]LogD3D11RHI: CleanupD3DDevice
-[2017.12.08-11.48.56:989][107]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.08-11.48.57:061][107]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2017.12.08-11.48.57:061][107]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2017.12.08-11.48.57:061][107]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2017.12.08-11.48.57:061][107]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2017.12.08-11.48.57:061][107]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2017.12.08-11.48.57:062][107]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.12.08-11.48.57:065][107]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2017.12.08-11.48.57:065][107]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2017.12.08-11.48.57:065][107]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2017.12.08-11.48.57:065][107]LogDirectoryWatcher: A directory notification for 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Collections/' was aborted.
-[2017.12.08-11.48.57:065][107]LogDirectoryWatcher: A directory notification for 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/Developers/ArjunKhara/Collections/' was aborted.
-[2017.12.08-11.48.57:065][107]LogDirectoryWatcher: A directory notification for 'C:/Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Collections/' was aborted.
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.12.08-11.48.57:066][107]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.12.08-11.48.57:067][107]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.12.08-11.48.57:068][107]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.12.08-11.48.57:069][107]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.12.08-11.48.57:069][107]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.12.08-11.48.57:069][107]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.12.08-11.48.57:069][107]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.12.08-11.48.57:069][107]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.12.08-11.48.57:971][107]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.12.08-11.48.57:972][107]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.12.08-11.48.57:973][107]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.12.08-11.48.58:027][107]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.12.08-11.48.58:028][107]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.12.08-11.48.58:028][107]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.12.08-11.48.58:028][107]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.12.08-11.48.58:028][107]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.12.08-11.48.58:049][107]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.12.08-11.48.58:049][107]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.12.08-11.48.58:049][107]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.12.08-11.48.58:049][107]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.12.08-11.48.58:050][107]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.12.08-11.48.58:051][107]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.12.08-11.48.58:051][107]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.12.08-11.48.58:051][107]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.12.08-11.48.58:051][107]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2017.12.08-11.48.58:051][107]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2017.12.08-11.48.58:286][107]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2017.12.08-11.48.58:287][107]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2017.12.08-11.48.58:288][107]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2017.12.08-11.48.58:289][107]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2017.12.08-11.48.58:289][107]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2017.12.08-11.48.58:289][107]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2017.12.08-11.48.58:289][107]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2017.12.08-11.48.58:289][107]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2017.12.08-11.48.58:291][107]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2017.12.08-11.48.58:291][107]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2017.12.08-11.48.58:292][107]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.12.08-11.48.58:293][107]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.12.08-11.48.58:394][107]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.12.08-11.48.58:494][107]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.12.08-11.48.58:494][107]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.12.08-11.48.58:495][107]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.12.08-11.48.58:495][107]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.12.08-11.48.58:495][107]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.12.08-11.48.58:495][107]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.12.08-11.48.58:498][107]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.12.08-11.48.58:498][107]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.12.08-11.48.58:499][107]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.12.08-11.48.58:499][107]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.12.08-11.48.58:504][107]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.12.08-11.48.58:511][107]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.12.08-11.48.58:511][107]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.12.08-11.48.58:511][107]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.12.08-11.48.58:512][107]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.12.08-11.48.58:513][107]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.12.08-11.48.58:513][107]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.12.08-11.48.58:513][107]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.12.08-11.48.58:521][107]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.12.08-11.48.58:522][107]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.08-11.48.58:524][107]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.12.08-11.48.58:574][107]LogDerivedDataCache: Shutdown
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.12.08-11.48.58:574][107]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.12.08-11.48.58:575][107]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.08-11.48.58:576][107]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.08-11.48.58:576][107]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.08-11.48.58:576][107]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8FE88E33-4BA6-905E-AD79-4E8D54A30747%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=60b2aad244ef2f1b7993e49e8f66f7a1%7C3505377665d04821bd10bbccbf1da2d4%7C946a2fce-ec6e-4002-8158-36014cc7f8d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.08-11.48.58:597][107]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.08-11.48.58:598][107]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.08-11.48.58:599][107]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.08-11.48.58:602][107]LogExit: Exiting.
-[2017.12.08-11.48.58:610][107]Log file closed, 12/08/17 11:48:58
+[2017.12.09-15.05.38:860][847]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.05.39:210][868]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-144.669 Y=16.024 Z=301.504] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.39:260][871]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-132.511 Y=14.908 Z=285.509] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.39:377][878]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-144.919 Y=16.146 Z=301.171] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.39:561][889]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-138.833 Y=19.476 Z=285.503] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.41:412][  0]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-141.727 Y=-118.761 Z=307.361] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.41:528][  7]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-122.347 Y=-134.131 Z=296.265] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.41:594][ 11]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-133.366 Y=-123.418 Z=305.433] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.41:829][ 25]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-134.904 Y=-122.478 Z=311.630] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.43:080][100]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-131.986 Y=-130.478 Z=305.419] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.43:194][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-139.007 Y=-122.220 Z=288.244] for [FirstPersonProjectile_C]
+[2017.12.09-15.05.44:878][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.05.44:917][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.05.44:954][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:954][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.44:955][208]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.05.57:668][968]LogEditorViewport: Clicking on Actor (LMB): Blueprint_Effect_Fire_C (Blueprint_Effect_Fire)
+[2017.12.09-15.06.07:439][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BBQ-Stove_pCylinder5)
+[2017.12.09-15.06.11:452][789]LogEditorViewport: Clicking on Actor (LMB): Blueprint_Effect_Fire_C (Blueprint_Effect_Fire)
+[2017.12.09-15.06.22:453][447]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-15.06.22:464][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.06.22:464][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-15.06.22:464][447]PIE: New page: PIE session: FirstPersonExampleMap (9 Dec 2017 15:06:22)
+[2017.12.09-15.06.22:464][447]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.12.09-15.06.22:476][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011876s)
+[2017.12.09-15.06.22:477][447]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-15.06.22:477][447]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.12.09-15.06.22:477][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013092s)
+[2017.12.09-15.06.22:494][447]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.12.09-15.06.22:560][447]LogInit: FAudioDevice initialized.
+[2017.12.09-15.06.22:595][447]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-15.06.22:598][447]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.09-15.06.22
+[2017.12.09-15.06.22:598][447]LogWorld: Bringing up level for play took: 0.002144
+[2017.12.09-15.06.22:600][447]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.255
+[2017.12.09-15.06.22:600][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.06.36:401][271]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-338.179 Y=426.561 Z=310.741] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.37:933][363]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_9
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
+[2017.12.09-15.06.37:933][363]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.06.38:133][375]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_9
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
+[2017.12.09-15.06.38:133][375]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.06.43:851][718]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-387.256 Y=402.563 Z=306.259] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.44:018][728]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.713 Y=399.806 Z=309.308] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.44:034][729]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-367.907 Y=382.316 Z=276.099] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.44:267][743]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-367.093 Y=421.569 Z=316.855] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.44:434][753]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-357.919 Y=434.292 Z=307.610] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.44:934][783]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-364.573 Y=427.070 Z=288.273] for [FirstPersonProjectile_C]
+[2017.12.09-15.06.45:300][805]LogScript: Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_77
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0301
+[2017.12.09-15.06.45:300][805]PIE: Error: Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: DestroyComponent in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.12.09-15.06.50:767][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.06.50:806][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.06.50:837][133]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.06.50:837][133]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Steam01_Cue'
+[2017.12.09-15.06.58:766][606]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-15.06.58:776][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.06.58:776][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-15.06.58:777][606]PIE: New page: PIE session: FirstPersonExampleMap (9 Dec 2017 15:06:58)
+[2017.12.09-15.06.58:777][606]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.12.09-15.06.58:788][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011416s)
+[2017.12.09-15.06.58:789][606]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-15.06.58:790][606]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2017.12.09-15.06.58:790][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012950s)
+[2017.12.09-15.06.58:807][606]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.12.09-15.06.58:873][606]LogInit: FAudioDevice initialized.
+[2017.12.09-15.06.58:912][606]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-15.06.58:918][606]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.12.09-15.06.58
+[2017.12.09-15.06.58:919][606]LogWorld: Bringing up level for play took: 0.005097
+[2017.12.09-15.06.58:922][606]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.577
+[2017.12.09-15.06.58:923][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.07.05:377][987]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.07.05:414][987]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-15.07.26:635][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BBQ-Stove_pCylinder5)
+[2017.12.09-15.07.31:973][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BBQ-Stove_pCube1)
+[2017.12.09-15.07.39:603][978]LogRenderer: Reallocating scene render targets to support 1140x692 Format 10 NumSamples 1 (Frame:1).
+[2017.12.09-15.08.35:203][139]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2017.12.09-15.09.12:494][767]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Brick_Clay_New_BBQ.M_Brick_Clay_New_BBQ needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.09.12:497][767]LogMaterial: Missing cached shader map for material M_Brick_Clay_New_BBQ, compiling. 
+[2017.12.09-15.09.24:610][486]LogSavePackage: Save=10.50ms
+[2017.12.09-15.09.24:610][486]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCube1A6C5FF404790A4FEBABAE689B8E8C6C2.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/BBQ-Stove_pCube1.uasset'
+[2017.12.09-15.09.24:614][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Blueprints/BBQ-Stove_pCube1.uasset
+[2017.12.09-15.10.44:131][176]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Concrete_Tiles_BBQ.M_Concrete_Tiles_BBQ needed to have new flag set bUsedWithStaticLighting !
+[2017.12.09-15.10.44:135][176]LogMaterial: Missing cached shader map for material M_Concrete_Tiles_BBQ, compiling. 
+[2017.12.09-15.13.20:795][ 52]LogSavePackage: Save=243.79ms
+[2017.12.09-15.13.20:795][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonExampleMap_Auto1E1ED371A4844B3035FD7BDA10F0C79A9.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.12.09-15.13.20:798][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.12.09-15.13.20:800][ 52]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.284
+[2017.12.09-15.13.20:800][ 52]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2017.12.09-15.13.20:804][ 52]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2017.12.09-15.13.20:804][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2017.12.09-15.13.21:129][ 52]LogSavePackage: Save=239.31ms
+[2017.12.09-15.13.21:129][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonExampleMap_BuiltData_7076DA244B071D40F6CA54842CD4864D.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset'
+[2017.12.09-15.13.21:131][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset
+[2017.12.09-15.13.21:132][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1] ([1] browsable assets)...
+[2017.12.09-15.13.21:153][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1.BBQ-Stove_pCube1]
+[2017.12.09-15.13.21:153][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1]
+[2017.12.09-15.13.21:172][ 52]LogSavePackage: Save=11.83ms
+[2017.12.09-15.13.21:172][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCube1_Auto135380D2D46740A8221515C9612355020.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1_Auto1.uasset'
+[2017.12.09-15.13.21:174][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCube1_Auto1.uasset
+[2017.12.09-15.13.21:175][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn3] ([1] browsable assets)...
+[2017.12.09-15.13.21:196][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn3.blinn3]
+[2017.12.09-15.13.21:196][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn3]
+[2017.12.09-15.13.21:209][ 52]LogSavePackage: Save=11.21ms
+[2017.12.09-15.13.21:209][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn3_Auto14B97C48644ACD60194C1A1A51D1ED7F2.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn3_Auto1.uasset'
+[2017.12.09-15.13.21:210][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn3_Auto1.uasset
+[2017.12.09-15.13.21:212][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn4] ([1] browsable assets)...
+[2017.12.09-15.13.21:230][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn4.blinn4]
+[2017.12.09-15.13.21:230][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn4]
+[2017.12.09-15.13.21:242][ 52]LogSavePackage: Save=10.16ms
+[2017.12.09-15.13.21:242][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn4_Auto1E08EE00F49256A60FB6C8188CA6EBE02.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn4_Auto1.uasset'
+[2017.12.09-15.13.21:243][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn4_Auto1.uasset
+[2017.12.09-15.13.21:244][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn5] ([1] browsable assets)...
+[2017.12.09-15.13.21:264][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn5.blinn5]
+[2017.12.09-15.13.21:264][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn5]
+[2017.12.09-15.13.21:277][ 52]LogSavePackage: Save=11.21ms
+[2017.12.09-15.13.21:277][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn5_Auto16E669D5F4BD4852FF7BD7392B24F882D.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn5_Auto1.uasset'
+[2017.12.09-15.13.21:279][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn5_Auto1.uasset
+[2017.12.09-15.13.21:280][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn11] ([1] browsable assets)...
+[2017.12.09-15.13.21:299][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn11.blinn11]
+[2017.12.09-15.13.21:299][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn11]
+[2017.12.09-15.13.21:311][ 52]LogSavePackage: Save=10.80ms
+[2017.12.09-15.13.21:311][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn11_Auto1225573F644BC7513ADE2D1AC3A120836.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn11_Auto1.uasset'
+[2017.12.09-15.13.21:313][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn11_Auto1.uasset
+[2017.12.09-15.13.21:314][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn7] ([1] browsable assets)...
+[2017.12.09-15.13.21:333][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn7.blinn7]
+[2017.12.09-15.13.21:333][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn7]
+[2017.12.09-15.13.21:345][ 52]LogSavePackage: Save=10.15ms
+[2017.12.09-15.13.21:345][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn7_Auto1B48DC26F448E1401BB8391A4A86D7798.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn7_Auto1.uasset'
+[2017.12.09-15.13.21:346][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn7_Auto1.uasset
+[2017.12.09-15.13.21:347][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn6] ([1] browsable assets)...
+[2017.12.09-15.13.21:371][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn6.blinn6]
+[2017.12.09-15.13.21:371][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn6]
+[2017.12.09-15.13.21:383][ 52]LogSavePackage: Save=10.42ms
+[2017.12.09-15.13.21:383][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn6_Auto16F202BCA4C021CF5C40716843357B0F5.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn6_Auto1.uasset'
+[2017.12.09-15.13.21:384][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn6_Auto1.uasset
+[2017.12.09-15.13.21:386][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/lambert3] ([1] browsable assets)...
+[2017.12.09-15.13.21:408][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/lambert3.lambert3]
+[2017.12.09-15.13.21:408][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/lambert3]
+[2017.12.09-15.13.21:421][ 52]LogSavePackage: Save=9.96ms
+[2017.12.09-15.13.21:421][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/lambert3_Auto18EEFF7AB4497EF3668C777A06B7C5924.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert3_Auto1.uasset'
+[2017.12.09-15.13.21:422][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert3_Auto1.uasset
+[2017.12.09-15.13.21:424][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4] ([1] browsable assets)...
+[2017.12.09-15.13.21:442][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4.BBQ-Stove_pCylinder4]
+[2017.12.09-15.13.21:442][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4]
+[2017.12.09-15.13.21:453][ 52]LogSavePackage: Save=9.91ms
+[2017.12.09-15.13.21:454][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCylinder4_Auto186920EC94EDFFF728F6F75ADE5EBA6C8.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4_Auto1.uasset'
+[2017.12.09-15.13.21:455][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder4_Auto1.uasset
+[2017.12.09-15.13.21:456][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/lambert1] ([1] browsable assets)...
+[2017.12.09-15.13.21:476][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/lambert1.lambert1]
+[2017.12.09-15.13.21:476][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/lambert1]
+[2017.12.09-15.13.21:488][ 52]LogSavePackage: Save=9.77ms
+[2017.12.09-15.13.21:488][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/lambert1_Auto1D03CFCCB499B8F365AE93C9CEBA10B6F.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert1_Auto1.uasset'
+[2017.12.09-15.13.21:490][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert1_Auto1.uasset
+[2017.12.09-15.13.21:491][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn9] ([1] browsable assets)...
+[2017.12.09-15.13.21:511][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn9.blinn9]
+[2017.12.09-15.13.21:511][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn9]
+[2017.12.09-15.13.21:523][ 52]LogSavePackage: Save=10.85ms
+[2017.12.09-15.13.21:523][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn9_Auto1ECC42AB6414182B8DFC5E89E83B60AAE.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn9_Auto1.uasset'
+[2017.12.09-15.13.21:525][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn9_Auto1.uasset
+[2017.12.09-15.13.21:526][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn8] ([1] browsable assets)...
+[2017.12.09-15.13.21:545][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn8.blinn8]
+[2017.12.09-15.13.21:545][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn8]
+[2017.12.09-15.13.21:556][ 52]LogSavePackage: Save=9.73ms
+[2017.12.09-15.13.21:556][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn8_Auto105C796A84FB310059E00B7B61B383C71.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn8_Auto1.uasset'
+[2017.12.09-15.13.21:557][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn8_Auto1.uasset
+[2017.12.09-15.13.21:559][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn10] ([1] browsable assets)...
+[2017.12.09-15.13.21:578][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn10.blinn10]
+[2017.12.09-15.13.21:578][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn10]
+[2017.12.09-15.13.21:590][ 52]LogSavePackage: Save=10.71ms
+[2017.12.09-15.13.21:590][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn10_Auto1A29E439446E668E1B65D82A9152C7EA8.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn10_Auto1.uasset'
+[2017.12.09-15.13.21:592][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn10_Auto1.uasset
+[2017.12.09-15.13.21:593][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5] ([1] browsable assets)...
+[2017.12.09-15.13.21:611][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5.BBQ-Stove_pCylinder5]
+[2017.12.09-15.13.21:611][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5]
+[2017.12.09-15.13.21:625][ 52]LogSavePackage: Save=10.47ms
+[2017.12.09-15.13.21:625][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCylinder5_Auto1DB860CD647DF71110BD071833EB7E899.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5_Auto1.uasset'
+[2017.12.09-15.13.21:626][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder5_Auto1.uasset
+[2017.12.09-15.13.21:627][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/gas_tank] ([1] browsable assets)...
+[2017.12.09-15.13.21:648][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/gas_tank.gas_tank]
+[2017.12.09-15.13.21:648][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/gas_tank]
+[2017.12.09-15.13.21:665][ 52]LogSavePackage: Save=14.57ms
+[2017.12.09-15.13.21:665][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/gas_tank_Auto1EE1C2C5A434A1EFE9F7918AAE30A5760.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/gas_tank_Auto1.uasset'
+[2017.12.09-15.13.21:667][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/gas_tank_Auto1.uasset
+[2017.12.09-15.13.21:669][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/lambert2] ([1] browsable assets)...
+[2017.12.09-15.13.21:690][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/lambert2.lambert2]
+[2017.12.09-15.13.21:690][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/lambert2]
+[2017.12.09-15.13.21:704][ 52]LogSavePackage: Save=12.97ms
+[2017.12.09-15.13.21:704][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/lambert2_Auto1CFC85A394088D6900B26A8ABC480162C.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert2_Auto1.uasset'
+[2017.12.09-15.13.21:706][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/lambert2_Auto1.uasset
+[2017.12.09-15.13.21:707][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/blinn2] ([1] browsable assets)...
+[2017.12.09-15.13.21:733][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/blinn2.blinn2]
+[2017.12.09-15.13.21:733][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/blinn2]
+[2017.12.09-15.13.21:746][ 52]LogSavePackage: Save=10.80ms
+[2017.12.09-15.13.21:746][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/blinn2_Auto13E0AA312408D1973E57FE8B8FA60B6F1.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn2_Auto1.uasset'
+[2017.12.09-15.13.21:747][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/blinn2_Auto1.uasset
+[2017.12.09-15.13.21:748][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6] ([1] browsable assets)...
+[2017.12.09-15.13.21:771][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6.BBQ-Stove_pCylinder6]
+[2017.12.09-15.13.21:771][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6]
+[2017.12.09-15.13.21:783][ 52]LogSavePackage: Save=9.58ms
+[2017.12.09-15.13.21:783][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCylinder6_Auto12138A4E94D4D70030E654A9A568A19D3.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6_Auto1.uasset'
+[2017.12.09-15.13.21:784][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder6_Auto1.uasset
+[2017.12.09-15.13.21:785][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7] ([1] browsable assets)...
+[2017.12.09-15.13.21:809][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7.BBQ-Stove_pCylinder7]
+[2017.12.09-15.13.21:809][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7]
+[2017.12.09-15.13.21:826][ 52]LogSavePackage: Save=16.23ms
+[2017.12.09-15.13.21:827][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCylinder7_Auto14CF8CBF746AA321D265E91B64F6C807F.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7_Auto1.uasset'
+[2017.12.09-15.13.21:829][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder7_Auto1.uasset
+[2017.12.09-15.13.21:830][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8] ([1] browsable assets)...
+[2017.12.09-15.13.21:854][ 52]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8.BBQ-Stove_pCylinder8]
+[2017.12.09-15.13.21:854][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8]
+[2017.12.09-15.13.21:867][ 52]LogSavePackage: Save=10.90ms
+[2017.12.09-15.13.21:867][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/BBQ-Stove_pCylinder8_Auto14A46CE094249C6EFFF9F589B1A395D07.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8_Auto1.uasset'
+[2017.12.09-15.13.21:869][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BBQ-Stove_pCylinder8_Auto1.uasset
+[2017.12.09-15.13.21:870][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Brick_Clay_New_BBQ] ([1] browsable assets)...
+[2017.12.09-15.13.21:893][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Brick_Clay_New_BBQ.M_Brick_Clay_New_BBQ]
+[2017.12.09-15.13.21:893][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Brick_Clay_New_BBQ]
+[2017.12.09-15.13.21:905][ 52]LogSavePackage: Save=10.03ms
+[2017.12.09-15.13.21:905][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/M_Brick_Clay_New_BBQ_Auto199165F394C2C1FBF3BE925ABFF3C946F.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/StarterContent/Materials/M_Brick_Clay_New_BBQ_Auto1.uasset'
+[2017.12.09-15.13.21:907][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/StarterContent/Materials/M_Brick_Clay_New_BBQ_Auto1.uasset
+[2017.12.09-15.13.21:908][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Concrete_Tiles_BBQ] ([1] browsable assets)...
+[2017.12.09-15.13.21:918][ 52]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Concrete_Tiles_BBQ.M_Concrete_Tiles_BBQ]
+[2017.12.09-15.13.21:918][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Concrete_Tiles_BBQ]
+[2017.12.09-15.13.21:930][ 52]LogSavePackage: Save=10.12ms
+[2017.12.09-15.13.21:930][ 52]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/M_Concrete_Tiles_BBQ_Auto1CC43FEF74531B40EC12B14845A7D022D.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/StarterContent/Materials/M_Concrete_Tiles_BBQ_Auto1.uasset'
+[2017.12.09-15.13.21:931][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/StarterContent/Materials/M_Concrete_Tiles_BBQ_Auto1.uasset
+[2017.12.09-15.13.21:931][ 52]LogFileHelpers: Auto-saving content packages took 1.130
+[2017.12.09-15.21.03:890][635]LogSavePackage: Save=228.97ms
+[2017.12.09-15.21.03:890][635]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonExampleMapEBC67D0D448575156B107C9D5153FBFB.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.12.09-15.21.03:895][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.12.09-15.21.04:859][635]LogSavePackage: Save=932.32ms
+[2017.12.09-15.21.04:859][635]LogSavePackage: Moving '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Saved/FirstPersonExampleMap_BuiltDataFFE76D0C4F8DD87EFFB4C6AFDD9C6A07.tmp' to '../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.12.09-15.21.04:863][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arjun Khara/Documents/Unreal Projects/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
