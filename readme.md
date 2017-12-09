@@ -47,3 +47,7 @@ In Unreal Engine, there are special objects for dialog construction, example the
 <hr/>
 
 <h4>Project Team</h4>: Sarah Chalk has officially withdrawn from the group project and module, owing to personal reasons. The project will continue under the direction of Daniel and Arjun, who will manage the modelling assets and Blueprints in Unreal. We are aiming to complete the entire game project by 13 December 2017, then leave a time lead for further refinements and add-ons.
+
+<h4>Progress Report</h4>: The group (consiting of Dan and Arjun) has managed to establish complete GitHub integration for all files (including Blueprints, images, FBX assets, and records and documentation). Both members now have access to each other's individual Blueprint files and contributions and are working together to schedule who works when and on what part of the project, to prevent overlap or overwriting of contributions. The essential 'don't break the build mentality' has set in. This group meeting was on 9 December 2017. So far the group is on track to have a working prototype / MVP for the 13 December 2017 target deadline.
+
+
