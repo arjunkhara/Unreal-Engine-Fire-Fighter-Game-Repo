@@ -249,6 +249,11 @@ This is the complete Blueprint for the AI script and behaviour governing its log
 
 In the ThirdPersonCharacter Blueprint, create a new event node called Event Tick. This node measures a value at each second of the game, in this case the player’s health. Create another node called Branch. The Branch node provides a Boolean measure (true or false). Drag out a connector from the Condition pin on the Branch node and type Integer < Integer to create the corresponding node. This node sets up a condition such that if the player’s health is less than 1 or 0, the Branch will perform a function. Drag out a connector from the True pin on the Branch node (since True means the condition satisfies the requirements) and create a new node function called DestroyActor. This logic is now complete. If the player’s health is less than 1 or 0, the player is destroyed. The Blueprint uses the Event Tick node to constantly measure if the player’s health is greater than 1 and if not, will pass off the function of killing the player via the Branch and DestroyActor nodes.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide116.PNG "Measuring Current Player Health")
 
+In several instances, a GitHub credential error might occur, which prevents pushing the changes made to the Blueprints out into the GitHub repo. In this case, the error says 'Exit Status 1'. The image of the error screen is as follows: ![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints-images-folder/GitHub-Credential-Error.PNG "GitHub Credential Error")
+
+
+
+
 
 <h4>References and Sources of Learning:</h4>
 
