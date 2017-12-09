@@ -259,6 +259,9 @@ The FBX asset for the barbecue stove has been completed and imported into the Bl
 
 The barbecue stove has been re-shaded using native Unreal Engine shaders to integrate the asset into the scene. A darker hue was applied to give it a pre-burnt effect, which aids player recognition and learning when encountering the object. This barbecue stove requires an H2O suppressant and will be lit up using the red colour fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide118.PNG "BBQ Stove Re-Shaded")
 
+The FBX asset for the chair has been completed and imported into the Blueprints folder. Like the BBQ stove, the chair was imported as an FBX asset and is now a game object that can be interacted with the player. The chair has a few additional shaders added to its different components. Using Blueprints and the in-built materials of Unreal Engine, I was able to give the chair a wooden texture, which works appropriately since this is a fire hazard that requires the H2O suppressant. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide119.PNG "Chair FBX")
+
+
 
 
 <h4>References and Sources of Learning:</h4>
