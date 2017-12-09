@@ -50,4 +50,6 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <h4>Progress Report</h4>: The group (consiting of Dan and Arjun) has managed to establish complete GitHub integration for all files (including Blueprints, images, FBX assets, and records and documentation). Both members now have access to each other's individual Blueprint files and contributions and are working together to schedule who works when and on what part of the project, to prevent overlap or overwriting of contributions. The essential 'don't break the build mentality' has set in. This group meeting was on 9 December 2017. So far the group is on track to have a working prototype / MVP for the 13 December 2017 target deadline.
 
+<h4>Progress Report</h4>: The group (consiting of Dan and Arjun) has built the first working prototype of the Fire Fighter game. We are also considering the final name for the game - Haunted Hose. The working prototype features the player with the hose firing a specific projectile (the suppressant) at an object that is coming towards the player. In five hits (indexed from 0 to 4) the object will be destroyed. The prototype works perfectly. The next stage will be to substitute the real FBX assets (already uploaded) with the object placeholders. Report filed on 13 December 2017.
+
 
