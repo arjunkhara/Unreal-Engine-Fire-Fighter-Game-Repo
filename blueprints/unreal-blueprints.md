@@ -263,6 +263,8 @@ The FBX asset for the chair has been completed and imported into the Blueprints 
 
 With the base material applied using Blueprints, I navigated to the Materials folder (by clicking on the preset material and choosing New Material Instance. I then took an existing wooden material and re-applied it to the chair to create the wooden frame and body. I also saved this material as a unique instance for the chair. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide120.PNG "Chair Material")
 
+The final step was to integrate the chair into the scene and scale its size to fit with the rest of the game objects. As this chair will be a haunted item (i.e. will have its own laws of physics) it is important that the chair look and feel as natural as possible so that when the non-physical behaviour commences, the player's experience of the haunted fire tunnel will possibly be enhanced. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide121.PNG "Chair Integration")
+
 
 
 
