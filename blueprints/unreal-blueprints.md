@@ -261,6 +261,8 @@ The barbecue stove has been re-shaded using native Unreal Engine shaders to inte
 
 The FBX asset for the chair has been completed and imported into the Blueprints folder. Like the BBQ stove, the chair was imported as an FBX asset and is now a game object that can be interacted with the player. The chair has a few additional shaders added to its different components. Using Blueprints and the in-built materials of Unreal Engine, I was able to give the chair a wooden texture, which works appropriately since this is a fire hazard that requires the H2O suppressant. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide119.PNG "Chair FBX")
 
+With the base material applied using Blueprints, I navigated to the Materials folder (by clicking on the preset material and choosing New Material Instance. I then took an existing wooden material and re-applied it to the chair to create the wooden frame and body. I also saved this material as a unique instance for the chair. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide120.PNG "Chair Material")
+
 
 
 
