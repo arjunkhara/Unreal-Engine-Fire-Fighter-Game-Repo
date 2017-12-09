@@ -255,6 +255,8 @@ If an error such as the one documented above is encountered, proceed to do the f
 
 The FBX asset for the barbecue stove has been completed and imported into the Blueprints folder. The asset interacts with the player as a game object and can now be manipulated through Unreal Engine's Blueprint programme options. In this example I have overlaid the barbecue stove asset with an object on fire to preview the effect as it would appear during gameplay. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide117.PNG "BBQ Stove FBX")
 
+The barbecue stove has been re-shaded using native Unreal Engine shaders to integrate the asset into the scene. A darker hue was applied to give it a pre-burnt effect, which aids player recognition and learning when encountering the object. This barbecue stove requires an H2O suppressant and will be lit up using the red colour fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide118.PNG "BBQ Stove Re-Shaded")
+
 
 
 <h4>References and Sources of Learning:</h4>
