@@ -25,4 +25,4 @@ This is a preview of the paint can (Requires powder suppressant):
 ![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/image-assets/Paint-Can.jpg "Paint Can")
 
 This is a preview of the barbecue stove (Requires H2O suppressant):
-![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/image-assets/Paint-Can.jpg "BBQ Stove")
+![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/image-assets/BBQ-Stove.jpg "BBQ Stove")
