@@ -280,6 +280,7 @@ In this example I have used the hydro-erosion, erosion, smooth, and noise option
 
 I have added a ramp to this scene to test the viability of creating deliberately uneven surfaces made by humans, juxtaposed with unevenness caused by natural wear and tear. Unreal Engine 4 provides ample options to create a variety of terrains and effects using the in-built tools. Combined with lighting and atmospheric fog, the appropriate scene of a haunted tunnel will be modelled and constructed almost entirely within Unreal Engine. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide127.PNG "Ramp")
 
+In this example I am using the ramp to test the effects of the vanishing point by creating a narrowing perspective. The terrain is already starting to resemble a worn out tunnel. Further refinements will be carried out as the level is constructed, but this Blueprint will help the group to rapidly prototype and test playability within the environment of the game. A useful tip to begin gameplay at the point of edit, is to right-click and choose the ‘Play From Here’ option. This option begins gameplay at the point of view during edit, rather than at the fixed spawn point of the scene, which occurs when the Play button (top menu) is pressed. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide128.PNG "Playing From Immediate Area")
 
 
 
