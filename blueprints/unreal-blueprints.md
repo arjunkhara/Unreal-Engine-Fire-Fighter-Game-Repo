@@ -276,6 +276,7 @@ Click on the Landscape icon (the image of a mountain) from the Modes panel on th
 
 The flooring of the tunnel has been created in the old, underground brick style. Currently, the scene is open on all sides but this will be addressed at a later stage by adding walls and a ceiling around the playable area. While the material is adequate, the flooring looks far too new by virtue of its evenness. This can be fixed by using the Sculpt tool to add a variety of topographies and features to the terrain. Navigate to the Sculpt tool and explore the options presented. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide125.PNG "Brick Materials")
 
+In this example I have used the hydro-erosion, erosion, smooth, and noise options to create an older-looking, uneven terrain. By adjusting the settings under each option (using the sliders and values in the Tool Settings panel) the terrain can be manipulated into the desired effect. Similar effects can also be applied to the walls and ceiling of the scene to create a systematically random worn-out look. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide126.PNG "Unevenness")
 
 
 
