@@ -274,6 +274,9 @@ To create a new level in Unreal Engine 4, click on File > New Level, then choose
 
 Click on the Landscape icon (the image of a mountain) from the Modes panel on the top left to bring up the landscape editor. This editor enables resizing of the landscape along the X (length), Y (width), and Z (thickness) axes. It is very important to note that the Z location and the Z Scale must be the same so that the player is either on the terrain or above it, but never below it, otherwise the player will either fall through the ground, or remain stuck and unable to move before gameplay commences. In this example, I will be leaving the scale as 100 by 100. The Section Size (measured in Quads) is the number of checked squares. The more squares the higher the resolution. I will be setting this Section Size to 63 by 63 quads. Finally, I will be setting a material for the scene, in this case old brick. Once all the settings have been entered, click ‘Create’. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide124.PNG "Landscape Edits")
 
+The flooring of the tunnel has been created in the old, underground brick style. Currently, the scene is open on all sides but this will be addressed at a later stage by adding walls and a ceiling around the playable area. While the material is adequate, the flooring looks far too new by virtue of its evenness. This can be fixed by using the Sculpt tool to add a variety of topographies and features to the terrain. Navigate to the Sculpt tool and explore the options presented. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide125.PNG "Brick Materials")
+
+
 
 
 <h4>References and Sources of Learning:</h4>
