@@ -282,6 +282,7 @@ I have added a ramp to this scene to test the viability of creating deliberately
 
 In this example I am using the ramp to test the effects of the vanishing point by creating a narrowing perspective. The terrain is already starting to resemble a worn out tunnel. Further refinements will be carried out as the level is constructed, but this Blueprint will help the group to rapidly prototype and test playability within the environment of the game. A useful tip to begin gameplay at the point of edit, is to right-click and choose the ‘Play From Here’ option. This option begins gameplay at the point of view during edit, rather than at the fixed spawn point of the scene, which occurs when the Play button (top menu) is pressed. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide128.PNG "Playing From Immediate Area")
 
+This is the first render of the tunnel environment scene, currently under testing for materials adequacy and basic geometry / topography. As the group imports more assets into the scene, the lighting and atmosphere will consequently be adjusted to drive the visuals towards our ultimate haunted tunnel environment. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide129.PNG "Initial GamePlay Environment Testing")
 
 
 <h4>References and Sources of Learning:</h4>
