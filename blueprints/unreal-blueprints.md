@@ -268,6 +268,13 @@ The final step was to integrate the chair into the scene and scale its size to f
 In creating the smokey hissing sound for when an object's fire is extinguished, we created a Blueprint logic that blasts the sound initially, but then fades the sound out to create a more realistic suppressant effect. We were able to achieve this logic for all objects by applying a FadeOut function to the pre-built sounds offered within Unreal Engine. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide122.PNG "Smoke Fade Out Sound")
 
 
+<h2>Unreal Engine and Blueprints: Section 8</h2>
+
+To create a new level in Unreal Engine 4, click on File > New Level, then choose the default option. Unreal Engine 4 will create an empty scene. In this mode the entire scene and all its elements can be built from scratch using the tools and options provided in Unreal Engine. The basic setup even allows for no floor at all, a useful feature for games that require scaling or flight management scenarios. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide123.PNG "Tunnel Terrain")
+
+
+
+
 <h4>References and Sources of Learning:</h4>
 
 - Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
