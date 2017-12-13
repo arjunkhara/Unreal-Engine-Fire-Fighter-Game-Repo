@@ -1,0 +1,11 @@
+I had been testing out some gameplay mechanics in a separate project in one of my own repositories. I have now transferred the project to the game repo under the "GameProject" folder in blueprints. This space will be updated with more details as time goes on.
+
+Daniel Progress Report/Change Log:
+
+Current progress:
+
+Player movement has been restricted as per game design:
+The player is locked in place while retaining rotation. Enemies will spawn and move towards the player and they will have to use particular suppressants for each type of enemy.
+
+Enemy AI implemented:
+There are two types of enemy AI. Chargers and Patrollers. Chargers move towards the player in attempt to collide with the player to damage them. Patrollers move between different points and fire projectiles at the player. The projectiles can be extinguished with any suppressant.
