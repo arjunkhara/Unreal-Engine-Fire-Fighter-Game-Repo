@@ -28,3 +28,9 @@ The code for the powder projectile works by using the existing code for the wate
 [INSERT BLUEPRINT SCREEN SHOT]
 13/12/2017 - The Powder blueprint has been updated. The weapon now works using custom functions and a timer to control the rate of fire.
 [INSERT BLUEPRINT SCREEN SHOT]
+
+Health System:
+The health system is currently under construction. At the moment the system in place to check whether or not the player is using a particular suppressant is to tag each projectile type and when that projectile collides with an enemy it checks whether the projectile has the right tag, and if it does it reduces health. If it does not it prints a string and does no damage. 
+At the moment damage has not been assigned to the projectiles themselves. This will be done in a future update.
+
+
