@@ -5,7 +5,24 @@ Daniel Progress Report/Change Log:
 Current progress:
 
 Player movement has been restricted as per game design:
+[INSERT BLUEPRINT SCREEN SHOT]
 The player is locked in place while retaining rotation. Enemies will spawn and move towards the player and they will have to use particular suppressants for each type of enemy.
 
 Enemy AI implemented:
-There are two types of enemy AI. Chargers and Patrollers. Chargers move towards the player in attempt to collide with the player to damage them. Patrollers move between different points and fire projectiles at the player. The projectiles can be extinguished with any suppressant.
+There are two types of enemy AI. Chargers and Patrollers. 
+[INSERT BLUEPRINT SCREEN SHOT]
+[INSERT BLUEPRINT SCREEN SHOT]
+Chargers move towards the player in attempt to collide with the player to damage them. Patrollers move between different points and fire projectiles at the player. The projectiles can be extinguished with any suppressant.
+
+Suppressant Projectiles:
+In the game there will be 3 types of suppressant. Water, CO2 and Dry Powder. There will be 3 enemy types that will need to be extinguished with the correct suppressant. Water will put out normal wood/material fires (indicated by red flame), CO2 will put out electrical fires (indicated by yellow flame) and Dry Powder will extinguish oil based fires (indicated by blue flame).
+
+The water weapon is currently set up to fire as a Machine gun type weapon:
+[INSERT BLUEPRINT SCREEN SHOT]
+
+The CO2 weapon is currently still in development, but will work as a Flamethrower type weapon.
+[INSERT CURRENT BLUEPRINT SCREEN SHOT]
+
+The Powder is currently still in development, but will work as a Shotgun type weapon.
+The code for the powder projectile works by using the existing code for the water projectile but with a reduced delay.
+[INSERT BLUEPRINT SCREEN SHOT]
