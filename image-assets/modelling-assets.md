@@ -18,6 +18,9 @@ This is a preview of the fire tank (H2O suppressant):
 This is a preview of the electric SUV (Requires CO2 suppressant):
 ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/image-assets/e-Hummer-1.jpg "Electric SUV")
 
+This is a preview of the headphones (Requires powder suppressant):
+![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/image-assets/Headphones.PNG "Headphones")
+
 This is a preview of the tombstone (Requires powder suppressant):
 ![alt tag](https://github.com/arjunkhara/Fire-Fighter-Game-Repo/blob/master/image-assets/Tombstone.png "Tombstone")
 
@@ -32,4 +35,3 @@ This is a preview of the chair (Requires H2O suppressant):
 
 This is a preview of the ceramic strawberry jar (additional item of interest):
 ![alt tag](https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/image-assets/Slide112.PNG "Ceramic Strawberry Jar")
-
