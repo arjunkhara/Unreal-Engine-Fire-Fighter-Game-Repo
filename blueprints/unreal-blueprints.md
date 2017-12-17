@@ -328,6 +328,9 @@ By playing with the values a variety of different effects can be achieved for th
 
 Here is the Tron glow effect added to the landscape walls. The glowing edges create a natural vanishing point towards the playable area, and add plenty of visual interest to the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide150.PNG "Laser Outline Applied to Walls")
 
+In this iteration, I have created a new material instance and applied it to the mannequin itself. The suit is now glowing and the outline looks much more dynamic and appealing than the default white material. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide151.PNG "Laser Outline Applied to Mannequin")
+
+
 
 
 <h4>References and Sources of Learning:</h4>
