@@ -292,6 +292,11 @@ To optimise the development, I have disabled Realtime by clicking on the dropdow
 
 I have added a box asset to the scene to get a sense of the scale of the environment since the player needs to be proportionate to the environment in which it is operating. I dragged the box in from the Geometry panel and resized it using the scale tool to 0.1 along the x axis, 0.1 along the y axis and 0.4 along the z axis. The box now represents the width and height of the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide132.PNG "Box Asset Added")
 
+Add the Unreal Engine 4 mannequin to the scene. If the mannequin is not in the content folder as an asset, download the mannequin for free from Unreal Engine 4’s marketplace, then follow the prompts to add the mannequin asset to the project, in this case my cave scene. Unreal Engine 4 will create a new folder in the Content Folder, with the title, UE4_Mannequin_Mobile. Double click to open this folder, then navigate to the Mesh folder and double-click that folder. Left-click and drag the mannequin onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide133.PNG "UE Mannequin Added")
+
+
+
+
 
 
 <h4>References and Sources of Learning:</h4>
