@@ -294,7 +294,7 @@ I have added a box asset to the scene to get a sense of the scale of the environ
 
 Add the Unreal Engine 4 mannequin to the scene. If the mannequin is not in the content folder as an asset, download the mannequin for free from Unreal Engine 4’s marketplace, then follow the prompts to add the mannequin asset to the project, in this case my cave scene. Unreal Engine 4 will create a new folder in the Content Folder, with the title, UE4_Mannequin_Mobile. Double click to open this folder, then navigate to the Mesh folder and double-click that folder. Left-click and drag the mannequin onto the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide133.PNG "UE Mannequin Added")
 
-
+Here I have rotated and resized the mannequin to match the proportions of the scene, using the initial block I created as a yardstick. With the mannequin in the scene and at the correct proportions, I can now start building out the landscape of the cave. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide134.PNG "Positioned UE Mannequin")
 
 
 
