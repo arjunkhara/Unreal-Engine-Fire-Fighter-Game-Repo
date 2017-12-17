@@ -318,6 +318,8 @@ Add two Sine nodes, one for each Mask and connect them up with their respective 
 
 Add two more Power (exponent) nodes and connect one to each of the one-minus nodes via the respective white pins. Then create a Scalar Component, give it a name (since it will be labelled as None by default). I called mine Scalar-Properties. In the Default Value input box for the Scalar-Properties node, type 30. Link up the Exp pins on both the Power nodes to the white pin on the Scalar Properties node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide145.PNG "Power and Scalar Component One")
 
+Add two more Subtract nodes and another Scalar Component node. For the Subtract nodes, put in 0.1 for the value. Next, create a new Scalar Property node, and give it any name. I gave mine Scalar-Properties-Two. Then link the A pins on the Subtract nodes to each of the power nodes, and link the B pins on the Subtract nodes to the single white pin on the new Scalar-Properties-Two node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide146.PNG "Subtract and Scalar Component Two")
+
 
 
 
