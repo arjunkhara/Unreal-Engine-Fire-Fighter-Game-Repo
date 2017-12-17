@@ -332,7 +332,7 @@ In this iteration, I have created a new material instance and applied it to the 
 
 Here is the final iteration of the scene, ready for use in the final game play. The fiery red wall at the end of the vanishing point is the source of all the fire and will spawn all the objects that will come towards the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide152.PNG "Laser Outline Applied to Fire Spawn Area")
 
-
+To keep the player within the bounds of the game, I have created a series of laser bars that prevent the player from exiting the playable area. The laser bars, like everything else in this landscape scene, are built entirely of the Tron custom material that I have created and that will power most of the environmental assets of this game. The material is built entirely of colour values and requires no textures. Therefore the load on the game is minimal while the effect is at full force. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide153.PNG "Final Environment Complete")
 
 
 <h4>References and Sources of Learning:</h4>
