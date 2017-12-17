@@ -316,6 +316,8 @@ To get the Tron-like effect, first create a Text Coordinate node. Then drag out 
 
 Add two Sine nodes, one for each Mask and connect them up with their respective white pins. The add a one-minus node, duplicate it, and again link up the one-minus nodes to the Sine nodes via the white pins. The effect of the black and white gradient lines are now more prominent. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide144.PNG "Sine and One-Minus Nodes")
 
+Add two more Power (exponent) nodes and connect one to each of the one-minus nodes via the respective white pins. Then create a Scalar Component, give it a name (since it will be labelled as None by default). I called mine Scalar-Properties. In the Default Value input box for the Scalar-Properties node, type 30. Link up the Exp pins on both the Power nodes to the white pin on the Scalar Properties node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide145.PNG "Power and Scalar Component One")
+
 
 
 
