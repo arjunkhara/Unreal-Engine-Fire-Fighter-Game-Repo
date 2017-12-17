@@ -308,6 +308,8 @@ To ensure that the light distribution is even across the scene, drag out a light
 
 Using the materials palette in the StarterContent folder, give the walls and the flooring a watery material to provide a dynamic and hypnotic effect. The continuous motion provides an interesting visual and complements the element of water as the mainstay of the game’s strategy to put out the fires. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide140.PNG "Watery Material")
 
+I have added a ceiling to the landscape and given all the walls a fluid, watery material that keeps moving randomly. The environment in its basic form is beginning to take shape. With the ceiling in place, the corridor has a spooky but futuristic appearance that invites a degree of exploration, which is the purpose of the game. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide141.PNG "Scene Ceiling")
+
 
 
 
