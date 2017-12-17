@@ -314,6 +314,8 @@ To give the scene a more futuristic lighting effect I am creating a Tron-like gl
 
 To get the Tron-like effect, first create a Text Coordinate node. Then drag out a Mask node from the white pin of the Text Coordinate node and create a Mask node. In the Material Expression Component Mask pane (bottom left) click only G for the green channel. Duplicate this Mask node, drag out and connect another link from the Text Coordinate white pin, and this time click only R for the red channel. Drag out connectors from both masks and add Multiply nodes. In the expression box, change the multiply value from 1.0 to 0.5. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide143.PNG "Text Coordinates and Masks")
 
+Add two Sine nodes, one for each Mask and connect them up with their respective white pins. The add a one-minus node, duplicate it, and again link up the one-minus nodes to the Sine nodes via the white pins. The effect of the black and white gradient lines are now more prominent. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide144.PNG "Sine and One-Minus Nodes")
+
 
 
 
