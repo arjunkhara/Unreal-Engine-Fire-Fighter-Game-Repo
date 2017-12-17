@@ -304,6 +304,8 @@ Use the Box asset to add two side walls and a far wall to block off three of the
 
 Add a player start point to the scene by clicking on the Basic panel and choosing the Player Start asset. Drag the asset to the scene and position it over the player. The player start asset will inform of whether the mannequin size and the player start mesh size are commensurate with each other. If they are not the player start asset will display a sign saying ‘Bad Size’. Resize the player start asset using the scale tool to make the mesh the same size as that of the mannequin. Once the sizes are in proportion, the ‘Bad Size’ sign will disappear. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide138.PNG "Start Asset")
 
+To ensure that the light distribution is even across the scene, drag out a lightmass importance volume asset from the Volumes pane, and resize the lightmass importance volume box to cover the play area.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide139.PNG "Lightmass Importance Volume")
+
 
 
 
