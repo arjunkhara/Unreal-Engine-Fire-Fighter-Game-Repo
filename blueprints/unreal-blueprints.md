@@ -302,6 +302,8 @@ Add atmospheric fog to the scene by dragging the Atmospheric Fog asset from the 
 
 Use the Box asset to add two side walls and a far wall to block off three of the four openings to the scene. The area behind the character is the entrance to the landscape area and will therefore remain open. It is simpler to create one long wall, scale and position it perfectly, then duplicate it (Ctrl + W) and position it along the other edge of the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide137.PNG "Walls")
 
+Add a player start point to the scene by clicking on the Basic panel and choosing the Player Start asset. Drag the asset to the scene and position it over the player. The player start asset will inform of whether the mannequin size and the player start mesh size are commensurate with each other. If they are not the player start asset will display a sign saying ‘Bad Size’. Resize the player start asset using the scale tool to make the mesh the same size as that of the mannequin. Once the sizes are in proportion, the ‘Bad Size’ sign will disappear. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide138.PNG "Start Asset")
+
 
 
 
