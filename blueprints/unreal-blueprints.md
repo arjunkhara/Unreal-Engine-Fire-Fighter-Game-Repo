@@ -296,7 +296,7 @@ Add the Unreal Engine 4 mannequin to the scene. If the mannequin is not in the c
 
 Here I have rotated and resized the mannequin to match the proportions of the scene, using the initial block I created as a yardstick. With the mannequin in the scene and at the correct proportions, I can now start building out the landscape of the cave. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide134.PNG "Positioned UE Mannequin")
 
-
+To add to the feeling of the scene, I have changed the sunlight colour to a more reddish-purple glow that is symptomatic of a distant fire. I have also played with the shadows to make them darker and more intense, which will add to the feeling of the game’s intensity. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide135.PNG "Sun Colour to Pink-Purple")
 
 
 <h4>References and Sources of Learning:</h4>
