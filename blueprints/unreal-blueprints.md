@@ -290,6 +290,7 @@ Creating the Fire Cave: In this stage, I will be creating the environment from s
 
 To optimise the development, I have disabled Realtime by clicking on the dropdown arrow at the top left and deselecting the checkbox that says Realtime. This will increase the viewport render and take up fewer computing resources since building in Unreal Engine can be CPU-intensive.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide131.PNG "Disabled Realtime")
 
+I have added a box asset to the scene to get a sense of the scale of the environment since the player needs to be proportionate to the environment in which it is operating. I dragged the box in from the Geometry panel and resized it using the scale tool to 0.1 along the x axis, 0.1 along the y axis and 0.4 along the z axis. The box now represents the width and height of the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide132.PNG "Box Asset Added")
 
 
 
