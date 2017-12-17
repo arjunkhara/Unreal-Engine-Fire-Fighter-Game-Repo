@@ -310,6 +310,8 @@ Using the materials palette in the StarterContent folder, give the walls and the
 
 I have added a ceiling to the landscape and given all the walls a fluid, watery material that keeps moving randomly. The environment in its basic form is beginning to take shape. With the ceiling in place, the corridor has a spooky but futuristic appearance that invites a degree of exploration, which is the purpose of the game. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide141.PNG "Scene Ceiling")
 
+To give the scene a more futuristic lighting effect I am creating a Tron-like glow material from scratch within Blueprints. This glow should provide the landscape not only with some visual interest but also add to the playability of the scene by providing implicit direction of where the player needs to focus attention. Start by creating a new material, giving it a name (I called mine Tron_Glow) then double-click the material icon to access its Blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide142.PNG "Tron-Like Effect")
+
 
 
 
