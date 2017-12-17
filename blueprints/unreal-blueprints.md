@@ -288,7 +288,7 @@ This is the first render of the tunnel environment scene, currently under testin
 
 Creating the Fire Cave: In this stage, I will be creating the environment from scratch for the Fire Fighter game that I am building and prototyping. I will start by creating the landscape and then proceed to build the character attributes and play assets. Start by creating an empty project, then scale the landscape along the x and y axes to increase the play area. Because this is going to be the entrance to a cave, I have lengthened the x axis to 8.0 and the y axis to 2.0. I have left the z axis as-is as the thickness of the landscape will be immaterial to the gameplay. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide130.PNG "Final Landscape Build Commenced")
 
-
+To optimise the development, I have disabled Realtime by clicking on the dropdown arrow at the top left and deselecting the checkbox that says Realtime. This will increase the viewport render and take up fewer computing resources since building in Unreal Engine can be CPU-intensive.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide131.PNG "Disabled Realtime")
 
 
 
