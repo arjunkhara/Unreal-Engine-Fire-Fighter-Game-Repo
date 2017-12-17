@@ -300,6 +300,8 @@ To add to the feeling of the scene, I have changed the sunlight colour to a more
 
 Add atmospheric fog to the scene by dragging the Atmospheric Fog asset from the Visual Effects panel onto the scene. Use the move tool to position the cloud icon (representing the atmospheric fog). Ensure that while the sunlight asset is selected, within the Light dropdown section (advanced options) the Atmospheric Sun Light checkbox is selected. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide136.PNG "Atmospheric Fog")
 
+Use the Box asset to add two side walls and a far wall to block off three of the four openings to the scene. The area behind the character is the entrance to the landscape area and will therefore remain open. It is simpler to create one long wall, scale and position it perfectly, then duplicate it (Ctrl + W) and position it along the other edge of the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide137.PNG "Walls")
+
 
 
 
