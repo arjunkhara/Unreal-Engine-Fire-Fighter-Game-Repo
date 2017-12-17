@@ -284,6 +284,14 @@ In this example I am using the ramp to test the effects of the vanishing point b
 
 This is the first render of the tunnel environment scene, currently under testing for materials adequacy and basic geometry / topography. As the group imports more assets into the scene, the lighting and atmosphere will consequently be adjusted to drive the visuals towards our ultimate haunted tunnel environment. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide129.PNG "Initial GamePlay Environment Testing")
 
+<h2>Unreal Engine and Blueprints: Section 9</h2>
+
+Creating the Fire Cave: In this stage, I will be creating the environment from scratch for the Fire Fighter game that I am building and prototyping. I will start by creating the landscape and then proceed to build the character attributes and play assets. Start by creating an empty project, then scale the landscape along the x and y axes to increase the play area. Because this is going to be the entrance to a cave, I have lengthened the x axis to 8.0 and the y axis to 2.0. I have left the z axis as-is as the thickness of the landscape will be immaterial to the gameplay. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide130.PNG "Final Landscape Build Commenced")
+
+
+
+
+
 
 <h4>References and Sources of Learning:</h4>
 
