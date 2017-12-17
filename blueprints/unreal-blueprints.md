@@ -326,6 +326,8 @@ This is the result of the Tron Blueprint. The Scalar-Properties One, Two, and Th
 
 By playing with the values a variety of different effects can be achieved for the glow shape. Adjust each of the three sliders to achieve the desired effect. To get these corner-type effects, set the first Scalar Property to 5, the second to 1.3 and the third to 0.5. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide149.PNG "Final Result on Box II")
 
+Here is the Tron glow effect added to the landscape walls. The glowing edges create a natural vanishing point towards the playable area, and add plenty of visual interest to the scene. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide150.PNG "Laser Outline Applied to Walls")
+
 
 
 <h4>References and Sources of Learning:</h4>
