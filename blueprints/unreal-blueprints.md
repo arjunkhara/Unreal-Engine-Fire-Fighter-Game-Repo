@@ -330,6 +330,8 @@ Here is the Tron glow effect added to the landscape walls. The glowing edges cre
 
 In this iteration, I have created a new material instance and applied it to the mannequin itself. The suit is now glowing and the outline looks much more dynamic and appealing than the default white material. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide151.PNG "Laser Outline Applied to Mannequin")
 
+Here is the final iteration of the scene, ready for use in the final game play. The fiery red wall at the end of the vanishing point is the source of all the fire and will spawn all the objects that will come towards the player. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide152.PNG "Laser Outline Applied to Fire Spawn Area")
+
 
 
 
