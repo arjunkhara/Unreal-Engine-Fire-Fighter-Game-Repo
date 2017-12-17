@@ -298,6 +298,10 @@ Here I have rotated and resized the mannequin to match the proportions of the sc
 
 To add to the feeling of the scene, I have changed the sunlight colour to a more reddish-purple glow that is symptomatic of a distant fire. I have also played with the shadows to make them darker and more intense, which will add to the feeling of the game’s intensity. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide135.PNG "Sun Colour to Pink-Purple")
 
+Add atmospheric fog to the scene by dragging the Atmospheric Fog asset from the Visual Effects panel onto the scene. Use the move tool to position the cloud icon (representing the atmospheric fog). Ensure that while the sunlight asset is selected, within the Light dropdown section (advanced options) the Atmospheric Sun Light checkbox is selected. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide136.PNG "Atmospheric Fog")
+
+
+
 
 <h4>References and Sources of Learning:</h4>
 
