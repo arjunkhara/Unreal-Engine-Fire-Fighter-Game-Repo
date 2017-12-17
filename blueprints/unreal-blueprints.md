@@ -306,6 +306,8 @@ Add a player start point to the scene by clicking on the Basic panel and choosin
 
 To ensure that the light distribution is even across the scene, drag out a lightmass importance volume asset from the Volumes pane, and resize the lightmass importance volume box to cover the play area.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide139.PNG "Lightmass Importance Volume")
 
+Using the materials palette in the StarterContent folder, give the walls and the flooring a watery material to provide a dynamic and hypnotic effect. The continuous motion provides an interesting visual and complements the element of water as the mainstay of the game’s strategy to put out the fires. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide140.PNG "Watery Material")
+
 
 
 
