@@ -320,6 +320,8 @@ Add two more Power (exponent) nodes and connect one to each of the one-minus nod
 
 Add two more Subtract nodes and another Scalar Component node. For the Subtract nodes, put in 0.1 for the value. Next, create a new Scalar Property node, and give it any name. I gave mine Scalar-Properties-Two. Then link the A pins on the Subtract nodes to each of the power nodes, and link the B pins on the Subtract nodes to the single white pin on the new Scalar-Properties-Two node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide146.PNG "Subtract and Scalar Component Two")
 
+Add a linear interpolate node (defaults to a Lerp node). Then drag out a connector and create a Multiply node. Create another Multiply node and connect the two Multiply nodes together. Create a Vector Parameter node and rename it Colour. Choose a colour from the default value box. I chose a matching pinkish-purple. Create another Scalar Component node which will control the glow strength and name it. I called mine Scalar-Properties-Three. Connect the white pin on this node to the white pin on the newest Multiply node. Finally, connect the white pin from the newest Multiply node to the Emissive Colour pin on the Tron_Glow material node. The box in the left panel now has glowing pinkish-purple edges and is ready for use.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide147.PNG "Linear Interpolation and Third Scalar Node")
+
 
 
 
