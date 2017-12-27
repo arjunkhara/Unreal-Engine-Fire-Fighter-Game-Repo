@@ -1,1 +1,4 @@
 This folder contains a selection of introductory python code that will be used for both Maya, Blender, and Unreal Engine beginner-level development.
+
+Functions
+The command print() is a function, as evidenced by the () parentheses following the command. In Python programming, all functions are followed by a ()
