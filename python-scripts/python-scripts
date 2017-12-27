@@ -1,4 +1,11 @@
 This folder contains a selection of introductory python code that will be used for both Maya, Blender, and Unreal Engine beginner-level development.
 
-Functions
+Functions:
 The command print() is a function, as evidenced by the () parentheses following the command. In Python programming, all functions are followed by a ()
+
+Mathematical Operators:
+The mathematical operants in python can be entered directly and the programme will run as expected. It is important to note that the numbers are different from the strings (characters such as B, r, % & ~)
+2 + 2 //addition operator
+2 - 2 //subtraction operator
+2 * 2 //multiplication operator
+2 / 2 //division operator
