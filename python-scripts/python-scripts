@@ -5,7 +5,7 @@ FUNCTIONS:
 The command print() is a function, as evidenced by the () parentheses following the command. In Python programming, all functions are followed by a ()
 
 MATHEMATICAL OPERATORS:
-The mathematical operants in python can be entered directly and the programme will run as expected. It is important to note that the numbers are different from the strings (characters such as B, r, % & ~)
+The mathematical operants in python can be entered directly and the program will run as expected. It is important to note that the numbers are different from the strings (characters such as B, r, % & ~)
 2 + 2 //addition operator
 2 - 2 //subtraction operator
 2 * 2 //multiplication operator
@@ -14,6 +14,21 @@ The mathematical operants in python can be entered directly and the programme wi
 VARIABLES:
 Variables are basic containers that contain values in the form of strings, numbers, and booleans (true and false).
 apples = 10 //a variable called apples has been created and assigned a value of 10
-Name = Samantha //a variable called Name has been created and assigned a value of Samantha
-print(Name "has" apples "royal gala apples") //this will print: Samantha has 10 royal gala apples
 
+name = Samantha //a variable called Name has been created and assigned a value of Samantha
+print(name "has" apples "royal gala apples") //this will print: Samantha has 10 royal gala apples
+
+
+CREATE A CHARACTER WITH INFORMATION:
+In this program exercise below, I will be learning from a book tutorial how to create a character and give it some valid information to form a personality. Once this program game has been typed out, save the file then click 'Run' to play this simple game.
+
+print("Let's create a character") //this will prompt the user to expect a game about to commence
+name = input("What is your character's name?") //this will prompt the user to enter a name for the character
+age = input("How old is your character?") //this will prompt the user to enter an age, which needs to be converted into a number
+city = input("In which city does your character live?") //this will prompt the user to enter the name of a city
+color = input("What is your character's favourite color?") //this will prompt the user to enter a color
+
+print("Your character's name is" name) //python will print out the name given by the user
+print(name "is" age "years old") //python will print out the age given by the user
+print(name "lives in the magnificent city of" city) //python will print out the city given by the user
+print(name"'s favourite color is" color) //python will print out the color given by the user
