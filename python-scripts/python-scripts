@@ -32,3 +32,10 @@ print("Your character's name is" name) //python will print out the name given by
 print(name "is" age "years old") //python will print out the age given by the user
 print(name "lives in the magnificent city of" city) //python will print out the city given by the user
 print(name"'s favourite color is" color) //python will print out the color given by the user
+
+
+STRINGS AND NUMBERS:
+Because there is a difference between strings and numbers, it is important to tell Python when it should treat a number as a number, and not as a default string. This is done using the integer function int()
+
+int(age) = input("What is your age?") //int(age) tells Python that the age variable will contain a number, not a string.
+
