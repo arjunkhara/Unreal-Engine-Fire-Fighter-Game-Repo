@@ -41,3 +41,9 @@ int(age) = input("What is your age?") //int(age) tells Python that the age varia
 
 float(height) = input("What is your height?") //float(height) tells Python the height variable will be a decimal or floating point number.
 
+Finally, using the following command will add a number to an integer since Python now recognises that the value is in fact a number.
+
+finalAge = int(age) + 1
+print("The final age of my character next year will be" finalAge)
+
+
