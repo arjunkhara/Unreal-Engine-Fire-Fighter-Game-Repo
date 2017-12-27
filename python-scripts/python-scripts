@@ -9,3 +9,10 @@ The mathematical operants in python can be entered directly and the programme wi
 2 - 2 //subtraction operator
 2 * 2 //multiplication operator
 2 / 2 //division operator
+
+Variables:
+Variables are basic containers that contain values in the form of strings, numbers, and booleans (true and false).
+apples = 10 //a variable called apples has been created and assigned a value of 10
+Name = Samantha //a variable called Name has been created and assigned a value of Samantha
+
+print(Name "has" apples "royal gala apples") //this will print: Samantha has 10 royal gala apples
