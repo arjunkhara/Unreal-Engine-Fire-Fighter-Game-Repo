@@ -39,3 +39,5 @@ Because there is a difference between strings and numbers, it is important to te
 
 int(age) = input("What is your age?") //int(age) tells Python that the age variable will contain a number, not a string.
 
+float(height) = input("What is your height?") //float(height) tells Python the height variable will be a decimal or floating point number.
+
