@@ -357,7 +357,7 @@ Drag out a connector from the ‘First Person Camera’ node and create a new no
 
 From the ‘GetWorldLocation’ node, drag out a connector from the ‘Return Value’ pin and create a ‘x float’ node. Change the value in the box to 5000. Then drag out a new connection from the ‘Return Value’ pin on the ‘GetWorldLocation’ node and create a ‘+vector+vector float’ node. Connect the ‘x float’ yellow pin to the ‘+vector+vector float’ node. The node will change type. Then connect the new node type’s yellow pin to the ‘End’ pin on the ‘LiveTraceByChannel’ node.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide163.PNG "Live Trace Channel")
 
-
+Drag out a new node called ‘Break Hit Result’. This node controls the end of the action. Create one more ‘x float’ node and one more ‘+vector+vector’ node. Connect up the ‘Location Pin’ on the ‘Break Hit Result’ node to the ‘+vector+vector’ pin, then drag out a connection from the outgoing yellow pin to create a new ‘LineTraceChannel’ node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide164.PNG "Updated Live Trace Channel")
 
 
 
