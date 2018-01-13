@@ -334,6 +334,10 @@ Here is the final iteration of the scene, ready for use in the final game play. 
 
 To keep the player within the bounds of the game, I have created a series of laser bars that prevent the player from exiting the playable area. The laser bars, like everything else in this landscape scene, are built entirely of the Tron custom material that I have created and that will power most of the environmental assets of this game. The material is built entirely of colour values and requires no textures. Therefore the load on the game is minimal while the effect is at full force. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide153.PNG "Final Environment Complete")
 
+<h2>Unreal Engine and Blueprints: Section 10</h2>
+In this Blueprint, I am creating a fire and water projectile system. The first step is to open the First Player HUD and correct the cross-hairs so that the projectiles are vectored in the precise direction of the shooter’s sights. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide154.PNG "Adding Water and Fire projectiles")
+
+
 
 <h4>References and Sources of Learning:</h4>
 
