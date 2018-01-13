@@ -339,7 +339,7 @@ In this Blueprint, I am creating a fire and water projectile system. The first s
 
 The cross-hairs have been correctly aligned along the X and Y axes for the shooter sights. Click ‘Compile’ and exit the First Person HUD blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide155.PNG "Cross-Hairs")
 
-
+Next, open the First Person Character blueprint to align the character itself along the target cross-hairs and also delete any spheres from the shooter. This is because the spheres (default) will be replaced by fire and water projectiles. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide156.PNG "First-Person Shooter View")
 
 
 
