@@ -337,6 +337,16 @@ To keep the player within the bounds of the game, I have created a series of las
 <h2>Unreal Engine and Blueprints: Section 10</h2>
 In this Blueprint, I am creating a fire and water projectile system. The first step is to open the First Player HUD and correct the cross-hairs so that the projectiles are vectored in the precise direction of the shooter’s sights. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide154.PNG "Adding Water and Fire projectiles")
 
+The cross-hairs have been correctly aligned along the X and Y axes for the shooter sights. Click ‘Compile’ and exit the First Person HUD blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide155.PNG "Cross-Hairs")
+
+
+
+
+
+
+
+
+
 
 
 <h4>References and Sources of Learning:</h4>
