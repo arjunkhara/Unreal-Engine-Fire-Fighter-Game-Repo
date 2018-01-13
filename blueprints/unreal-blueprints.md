@@ -351,6 +351,16 @@ Drag out a connection from the red connection pin of the ‘Branch’ node and c
 
 Create two more ‘Add Custom Event’ nodes, and give each one a name. The first one is called ‘ProjectFire’ and the second one is called ‘ProjectWater’. As might be expected, each custom event will be connected up to the relevant projectile, i.e. fire or water. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide161.PNG "Custom Events")
 
+Create a new function and call it ‘LineTrace’. Drag out a connector and create a node called ‘Sequence’. Drag out a connector from the ‘Then 0’ pin on the ‘Sequence’ node and create a new node called ‘LineTraceByChannel’. Next, pull in the ‘First Person Camera’ node from the panel on the left. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide161.PNG "Camera Line Tracer")
+
+
+
+
+
+
+
+
+
 
 
 
