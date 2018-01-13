@@ -54,7 +54,7 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <h4>Progress Report</h4>: Owing to challenges with the GitHub LFS repo and consequent conflict of files and permission restrictions, a separate repo is also being maintained for the blueprint files. Current repos of each team member, i.e. Arjun and Dan, are in tact and working fine but each has sporadic permissions issues which cannot be resolved in the limited timeframe and number of members in this team, i.e. 2. As a result, the team opted to pay for and create a second repo with LFS capability and restrict back up development files (including blueprints) to that repo as well as to this current one.
 
-<h4>Progress Report</h4>: Coming up to the final stage of the games-build, the following schedule has been established and agreed on: 
+<h4>Progress Report</h4>: Coming up to the final stage of the games-build, the following schedule has been established and agreed on:<br/>
 
 <strong>Saturday 13 January 2018</strong><br/>
 1. Dan will bring all his logic and assets into a single project file called FireFight.uproject.<br/>
@@ -71,4 +71,5 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <strong>Wednesday 17 January 2018</strong><br/>
 8. Dan and Arjun will meet at Goldsmiths to review the final game build.
+9. Dan and Arjun will deploy the game and review the YouTube demo reel.
 
