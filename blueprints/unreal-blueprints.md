@@ -345,7 +345,7 @@ Focus on the Spawn Projectile section of the blueprint, then click on the ‘Sph
 
 Then, delete the ‘GetWorldLocation’ node since the location is no longer a factor without the spheres. These spheres will be replaced by the fire / water projectile streams. Click ‘Compile’ but do not exit the blueprint as yet; the fire and water projectiles will be added next. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide158.PNG "Get World Location")
 
-
+Create a new ‘Left Mouse Button’ node in the space below the Spawn blueprint node set. Then drag out a connection from the ‘Pressed’ pin and create a new node called ‘Branch’. The ‘Branch’ node will control the condition during fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide159.PNG "Assigned Left Mouse Button")
 
 
 
