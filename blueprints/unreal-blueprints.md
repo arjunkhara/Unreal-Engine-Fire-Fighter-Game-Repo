@@ -353,7 +353,7 @@ Create two more ‘Add Custom Event’ nodes, and give each one a name. The firs
 
 Create a new function and call it ‘LineTrace’. Drag out a connector and create a node called ‘Sequence’. Drag out a connector from the ‘Then 0’ pin on the ‘Sequence’ node and create a new node called ‘LineTraceByChannel’. Next, pull in the ‘First Person Camera’ node from the panel on the left. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide161.PNG "Camera Line Tracer")
 
-
+Drag out a connector from the ‘First Person Camera’ node and create a new node called ‘GetWorldLocation’. This will establish the world location for the shooter and projectile. Connect the ‘Return Value’ pin from the ‘GetWorldLocation’ to the ‘Start’ pin on the ‘LiveTraceByChannel’ node. Next, drag out a new connector and create a new node called ‘GetForwardVector’. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide162.PNG "Forward Vector")
 
 
 
