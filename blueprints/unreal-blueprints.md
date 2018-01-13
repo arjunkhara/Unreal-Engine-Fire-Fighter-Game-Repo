@@ -365,7 +365,7 @@ The next stage is to work on the first person weapon blueprint, found under ‘F
 
 Return to the ‘First Person Character’ blueprint, then create the ‘FP Gun’ node. Connect the pins to the ‘LineTraceByChannel’ nodes and click ‘Compile’ then save the blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide168.PNG "Updated First Person Gun")
 
-
+In the Event Graph set up the logic for the fire and water by using the functions created in the previous steps. Then create a ‘flipflop’ node and connect it to a new ‘keyboard X’ node. Hitting x will switch between the fire and water projectiles. Click compile and save. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide169.PNG "Flip Flop Functionality")
 
 
 
