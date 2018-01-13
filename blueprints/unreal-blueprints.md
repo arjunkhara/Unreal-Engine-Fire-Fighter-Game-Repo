@@ -355,7 +355,7 @@ Create a new function and call it ‘LineTrace’. Drag out a connector and crea
 
 Drag out a connector from the ‘First Person Camera’ node and create a new node called ‘GetWorldLocation’. This will establish the world location for the shooter and projectile. Connect the ‘Return Value’ pin from the ‘GetWorldLocation’ to the ‘Start’ pin on the ‘LiveTraceByChannel’ node. Next, drag out a new connector and create a new node called ‘GetForwardVector’. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide162.PNG "Forward Vector")
 
-
+From the ‘GetWorldLocation’ node, drag out a connector from the ‘Return Value’ pin and create a ‘x float’ node. Change the value in the box to 5000. Then drag out a new connection from the ‘Return Value’ pin on the ‘GetWorldLocation’ node and create a ‘+vector+vector float’ node. Connect the ‘x float’ yellow pin to the ‘+vector+vector float’ node. The node will change type. Then connect the new node type’s yellow pin to the ‘End’ pin on the ‘LiveTraceByChannel’ node.  ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide163.PNG "Live Trace Channel")
 
 
 
