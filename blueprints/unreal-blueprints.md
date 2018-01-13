@@ -349,7 +349,7 @@ Create a new ‘Left Mouse Button’ node in the space below the Spawn blueprint
 
 Drag out a connection from the red connection pin of the ‘Branch’ node and click ‘Promote to Variable’ to make the node into a variable. The ‘Branch’ node will check whether the gun is shooting fire or water. In the Variable Name field (right panel) enter a name for the variable, in this case isFire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide160.PNG "Branch Variables")
 
-
+Create two more ‘Add Custom Event’ nodes, and give each one a name. The first one is called ‘ProjectFire’ and the second one is called ‘ProjectWater’. As might be expected, each custom event will be connected up to the relevant projectile, i.e. fire or water. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide161.PNG "Custom Events")
 
 
 
