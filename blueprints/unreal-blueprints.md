@@ -343,6 +343,16 @@ Next, open the First Person Character blueprint to align the character itself al
 
 Focus on the Spawn Projectile section of the blueprint, then click on the ‘Sphere’ component listing on the left panel, and delete this sphere from the FP Gun. This will get rid of the default yellow balls that Unreal Engine employs. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide157.PNG "Removed Default Sphere")
 
+Then, delete the ‘GetWorldLocation’ node since the location is no longer a factor without the spheres. These spheres will be replaced by the fire / water projectile streams. Click ‘Compile’ but do not exit the blueprint as yet; the fire and water projectiles will be added next. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide158.PNG "Get World Location")
+
+
+
+
+
+
+
+
+
 
 
 
