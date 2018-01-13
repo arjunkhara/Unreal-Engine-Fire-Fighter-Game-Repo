@@ -359,7 +359,7 @@ From the ‘GetWorldLocation’ node, drag out a connector from the ‘Return Va
 
 Drag out a new node called ‘Break Hit Result’. This node controls the end of the action. Create one more ‘x float’ node and one more ‘+vector+vector’ node. Connect up the ‘Location Pin’ on the ‘Break Hit Result’ node to the ‘+vector+vector’ pin, then drag out a connection from the outgoing yellow pin to create a new ‘LineTraceChannel’ node. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide164.PNG "Updated Live Trace Channel")
 
-
+Connect the ‘x float’ node to the ‘+vector+vector’ node. Finally, create a new ‘Branch’ node and connect the ‘False’ pin from this node to a new ‘LineTraceByChannel’ node. Then drag a connector from the white pin of the ‘Branch’ node to the ‘Then 0’ pin of the ‘Sequence’ node created earlier. Click compile and save. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide164.PNG "Line Trace Completed")
 
 
 
