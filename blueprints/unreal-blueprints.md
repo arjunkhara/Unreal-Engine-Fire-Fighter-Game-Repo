@@ -347,7 +347,7 @@ Then, delete the ‘GetWorldLocation’ node since the location is no longer a f
 
 Create a new ‘Left Mouse Button’ node in the space below the Spawn blueprint node set. Then drag out a connection from the ‘Pressed’ pin and create a new node called ‘Branch’. The ‘Branch’ node will control the condition during fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide159.PNG "Assigned Left Mouse Button")
 
-
+Drag out a connection from the red connection pin of the ‘Branch’ node and click ‘Promote to Variable’ to make the node into a variable. The ‘Branch’ node will check whether the gun is shooting fire or water. In the Variable Name field (right panel) enter a name for the variable, in this case isFire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide160.PNG "Branch Variables")
 
 
 
