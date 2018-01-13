@@ -363,7 +363,7 @@ Connect the ‘x float’ node to the ‘+vector+vector’ node. Finally, create
 
 The next stage is to work on the first person weapon blueprint, found under ‘FP Weapon’ in the ‘First Person’ folder. Click on Skeleton from the top right, then right click on Grip Bone from the left panel options and create a new socket. Click on Muzzle and move the socket into position. This will be the spawn point for the projectile. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide167.PNG "Adjusted Muzzle Socket")
 
-
+Return to the ‘First Person Character’ blueprint, then create the ‘FP Gun’ node. Connect the pins to the ‘LineTraceByChannel’ nodes and click ‘Compile’ then save the blueprint. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide168.PNG "Updated First Person Gun")
 
 
 
