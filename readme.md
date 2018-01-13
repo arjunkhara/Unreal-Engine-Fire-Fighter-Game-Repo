@@ -56,20 +56,11 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <h4>Progress Report</h4>: Coming up to the final stage of the games-build, the following schedule has been established and agreed on:<br/>
 
-<strong>Saturday 13 January 2018</strong><br/>
-1. Dan will bring all his logic and assets into a single project file called FireFight.uproject.<br/>
-2. Dan will construct the metrics of the basic environment, i.e. the four walls and ceiling.<br/>
+<strong>Saturday 13 January 2018</strong><br/>1. Dan will bring all his logic and assets into a single project file called FireFight.uproject.<br/>2. Dan will construct the metrics of the basic environment, i.e. the four walls and ceiling.<br/>
 
-<strong>Sunday 14 January 2018</strong><br/>
-3. Arjun will add materials to the environment.<br/>
-4. Arjun will add night and day cycle.<br/>
-5. Arjun will add effects to the gun.<br/>
+<strong>Sunday 14 January 2018</strong><br/>3. Arjun will add materials to the environment.<br/>4. Arjun will add night and day cycle.<br/>5. Arjun will add effects to the gun.<br/>
 
-<strong>Tuesday 16 January 2018</strong><br/>
-6. Dan will complete win conditions and begin debug.<br/>
-7. Arjun will complete UI effects and code integration.<br/>
+<strong>Tuesday 16 January 2018</strong><br/>6. Dan will complete win conditions and begin debug.<br/>7. Arjun will complete UI effects and code integration.<br/>
 
-<strong>Wednesday 17 January 2018</strong><br/>
-8. Dan and Arjun will meet at Goldsmiths to review the final game build.
-9. Dan and Arjun will deploy the game and review the YouTube demo reel.
+<strong>Wednesday 17 January 2018</strong><br/>8. Dan and Arjun will meet at Goldsmiths to review the final game build.<br/>9. Dan and Arjun will deploy the game and review the YouTube demo reel.<br/>10. Dan and Arjun will combine their individual presentations into a team deck.
 
