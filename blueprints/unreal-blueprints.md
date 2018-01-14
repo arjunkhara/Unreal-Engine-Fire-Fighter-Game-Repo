@@ -2,6 +2,32 @@
 
 Hello. I’m Arjun Khara, a student at Goldsmiths College, University of London. This is my introduction to Unreal Engine. As this is my first time using any games-engine software, I will be documenting all my learnings with Unreal Engine (UE) for the purposes of the module, as well as to provide a rudimentary introduction to future students of this module who, like me, have no experience with game engines but want to learn as much and as quickly as possible.
 
+___
+
+<h2>LINKS TO FINAL MODELLING + GAMES PROGRAMMING REPOSITORIES</h2>
+
+<h3>Programming Repository</h3>
+<strong>• Complete Programming Repository:</strong><br/> 
+https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/edit/master/blueprints/unreal-blueprints.md<br/>
+
+<strong>• Programming Repository Readme File, with the Final Report:</strong><br/> 
+https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo<br/>
+
+
+<h3>3D-Modelling Repository</h3>
+<strong>• Complete 3D Modelling Repository:</strong><br/> 
+https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
+
+<strong>• 3D Modelling Repository Readme File, with the Final Report):</strong><br/> 
+https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
+
+
+<h3>GitHub Repositories Homepage</h3>
+<strong>• GitHub Repositories Homepage:</strong><br/> 
+https://github.com/arjunkhara<br/>
+
+___
+
 <h2>Unreal Engine and Blueprints: Section 1</h2>
 
 This is the welcome screen in Unreal Engine. Development will initially be done through Blueprints, UE’s visual coding environment, like Scratch. Click on the Blank option (first option, top-left). Also ensure that the ‘With Starter Content’ option is selected, from the bottom three boxes, below the menu. Note, the ‘With Starter Content’ option box does not light up like the options above. The wording instead toggles between ‘With Starter Content’ and ‘No Starter Content’. Click on Create Project. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide1.PNG "Opening and using Unreal Engine")
