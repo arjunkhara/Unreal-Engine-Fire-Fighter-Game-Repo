@@ -1,5 +1,33 @@
 # FireFighterGame: Project Management Log
-This is a group project for Arjun Khara, Daniel Nicholson, and Sarah Chalk (Goldsmiths College - University of London) 2017 – 2018 for our game project: Fire Fighters. This new repo was created to manage and refine our game project for Introduction to Modelling and Introduction to Programming. The due date for this project is 10 December 2017. Several tasks have been identified and are in the pipeline. By Thursday, 23 November 2017, Arjun and Dan will have finished modelling the fire tanks, pipe, nozzles, and gloved hands, which contribute more than 75% of the modelling assets required for this project.
+
+___
+
+<h2>LINKS TO GAMES PROGRAMMING + 3D-MODELLING REPOSITORIES</h2>
+
+<h3>PROGRAMMING REPOSITORY</h3>
+<strong>• Complete Programming Repository:</strong><br/> 
+https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo<br/>
+
+<strong>• Programming Repository Readme File, containing Arjun Khara's Final Report:</strong><br/> 
+https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints.md<br/>
+
+
+<h3>3D-MODELLING REPOSITORY</h3>
+<strong>• Complete 3D Modelling Repository:</strong><br/> 
+https://github.com/arjunkhara/3D-Modelling-Repo<br/>
+
+<strong>• 3D Modelling Repository Readme File, containing Arjun Khara's Final Report:</strong><br/> 
+https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
+
+
+<h3>GITHUB REPOSITORIES HOMEPAGE</h3>
+<strong>• Arjun Khara's GitHub Repositories Homepage:</strong><br/> 
+https://github.com/arjunkhara<br/>
+
+___
+
+
+This is a group project for Arjun Khara and Daniel Nicholson (Goldsmiths College - University of London) 2017 – 2018 for our game project: Fire Fighters. This new repo was created to manage and refine our game project for Introduction to Modelling and Introduction to Programming. The due date for this project is 10 December 2017. Several tasks have been identified and are in the pipeline. By Thursday, 23 November 2017, Arjun and Dan will have finished modelling the fire tanks, pipe, nozzles, and gloved hands, which contribute more than 75% of the modelling assets required for this project.
 
 <h4>Progress Report</h4>:For this project we will be using blueprints in Unreal to create a game where the player fights fires of different varieties (Gas, Electric, wood). The player will have to manage which extinguishing materials they have to use to put out the fire. The incorrect extinguisher will make the fire grow, the correct one will shrink until it is extinguished.
 
