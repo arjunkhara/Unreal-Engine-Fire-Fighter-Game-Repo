@@ -405,6 +405,11 @@ ___
 <h4>Introduction</h4>
 This report forms a formal part of, and frequently references, the documentation and learnings recorded in my GitHub repository. ‘Haunted Hose’ (developed under the pseudonym ‘FireFighter’) is a video game, built and programmed entirely by two team members, Arjun Khara and Daniel Nicholson, for the final winter term projects at Goldsmiths College, University of London, to fulfil the requirements for two modules: Introduction to Programming, and Introduction to Modelling and Animation. The project is categorised as a serious game owing to  its additional characterising goals, beyond pure entertainment, of fire-safety education and awareness, specifically on suppressant types — water, carbon dioxide, and powder — used to combat various fires. The game was built on Unreal Engine 4 using a combination of Blueprints and direct C++ programming. Models and assets for the game were created using Maya and Blender, which were then imported into Unreal Engine as FBX objects and reconstructed for game use. Development commenced in mid-October 2017, and concluded in mid-January 2018 as a minimum viable product (MVP) to meet the assessment requirements for both of the modules.
 
+<h4>Conceptualisation</h4>
+The idea of a fire-fighting game originated out of a shared interest between the two team members about the relative lack of interest in fire safety procedures and basic awareness of a threat that has constantly hung over and plagued societies across time and geographies. Rudimentary gap analysis, conducted by the team, revealed a clear disconnect between the seriousness of the issue, and the nonchalant attitudes towards the problem. Fire safety is typically relegated as the concern of occupational and site experts, and not in the domain of everyday life. This outlook is common across societies throughout the world, and formed a point of discussion between the members, one of whom is from Asia and the other from the United Kingdom. The team decided to tackle this issue by creating a game that would entertain and educate.
+
+
+
 ___
 
 
