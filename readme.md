@@ -8,7 +8,7 @@ ___
 <strong>• Complete Programming Repository:</strong><br/> 
 https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo<br/>
 
-<strong>• Programming Repository Readme File, containing Arjun Khara's Final Report:</strong><br/> 
+<strong>• Programming Repository Readme File, containing the Project Final Report:</strong><br/> 
 https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints.md<br/>
 
 
@@ -16,12 +16,12 @@ https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/b
 <strong>• Complete 3D Modelling Repository:</strong><br/> 
 https://github.com/arjunkhara/3D-Modelling-Repo<br/>
 
-<strong>• 3D Modelling Repository Readme File, containing Arjun Khara's Final Report:</strong><br/> 
+<strong>• 3D Modelling Repository Readme File, containing the Project Final Report:</strong><br/> 
 https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
 
 
 <h3>GITHUB REPOSITORIES HOMEPAGE</h3>
-<strong>• Arjun Khara's GitHub Repositories Homepage:</strong><br/> 
+<strong>• GitHub Repositories Homepage:</strong><br/> 
 https://github.com/arjunkhara<br/>
 
 ___
@@ -84,9 +84,9 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <h4>Progress Report</h4>: Coming up to the final stage of the games-build, the following schedule has been established and agreed on:<br/>
 
-<strong>Saturday 13 January 2018</strong><br/>1. Dan will bring all his logic and assets into a single project file called FireFight.uproject.<br/>2. Dan will construct the metrics of the basic environment, i.e. the four walls and ceiling.<br/>
+<strong>(COMPLETED) Saturday 13 January 2018</strong><br/>1. Dan will bring all his logic and assets into a single project file called FireFight.uproject.<br/>2. Dan will construct the metrics of the basic environment, i.e. the four walls and ceiling.<br/>
 
-<strong>Sunday 14 January 2018</strong><br/>3. Arjun will add materials to the environment.<br/>4. Arjun will add night and day cycle.<br/>5. Arjun will add effects to the gun.<br/>
+<strong>(COMPLETED) Sunday 14 January 2018</strong><br/>3. Arjun will add materials to the environment.<br/>4. Arjun will add night and day cycle.<br/>5. Arjun will add effects to the gun.<br/>
 
 <strong>Tuesday 16 January 2018</strong><br/>6. Dan will complete win conditions and begin debug.<br/>7. Arjun will complete UI effects and code integration.<br/>
 
