@@ -426,19 +426,29 @@ The project was managed through GitHub repositories; a primary and a backup repo
 <h4>Conclusion</h4>
 The end of the first term and its games project has produced a variety of insights and dilemmas into the discipline of producing a video game. It is interesting to note the synchronicity between modelling and reality – one requires perception, and the other, vision. This raises the possibilities of modelling not just for gaming applications but also as a socially-driven engine for virtual reality, narratives of art history, sociology and the implementation of the real versus realistic dichotomy in the entertainment business as a whole. In fact it is already difficult to define where a natural environment ends and a computational system begins. Modelling is one thing, but modelling specifically for a game requires two-fold thinking, in which the considerations lie not only in the object’s form and structure, but also with its function and performance as a game asset. The application of animations (movement, scaling, burning, appearing and disappearing) requires an approach that sets one eye on the task and the other on the potential to meet future tasks. The workflow in this case includes thinking from both ends of the spectrum to necessitate minimal disruption, when transferring these assets from one medium to another. This is a new experience for the team, one which will provide ample insight and training to meet the rigours of working in the computer games industry.
 
-<h4>References and Sources of Learning:</h4>
 
-- Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
+<h4>Bibliography & Learning Sources:</h4>
 
-- Pub Games, on YouTube, accessible at: https://www.youtube.com/watch?v=6-ZwY4RDaPQ
+• Beginning C++ Through Game Programming, Dawson, M (2015), United States of America: Cengage Learning
 
-- PyroDev, on YouTube, accessible at: https://www.youtube.com/watch?v=a3QZflKDi3w
+• Beyond the Internet and Web, in Society & The Internet, Wilks, Y., eds. Graham, M. and Dutton, W.H., (2014), Oxford: Oxford University Press
 
-- Tesla Dev, on YouTube, accessible at: https://www.youtube.com/watch?v=1aSdzw5zPtg
+• Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
 
-- Unreal Engine, on YouTube, accessible at: https://www.youtube.com/watch?v=pdjFm7YA8vI&t=97s
+• Jimmy Vegas, on YouTube, accessible at: https://www.youtube.com/watch?v=2sp3g5pSQEk
 
-- Virtus Learning Lab, on YouTube, accessible at; https://www.youtube.com/watch?v=w_j8BMg27u8
+• Joseph Delgadillo, on YouTube, accessible at: https://www.youtube.com/watch?v=imLfBx8E4Wk
+
+• Pub Games, on YouTube, accessible at: https://www.youtube.com/watch?v=6-ZwY4RDaPQ
+
+• PyroDev, on YouTube, accessible at: https://www.youtube.com/watch?v=a3QZflKDi3w
+
+• Tesla Dev, on YouTube, accessible at: https://www.youtube.com/watch?v=1aSdzw5zPtg
+
+• Unreal Engine, on YouTube, accessible at: https://www.youtube.com/watch?v=pdjFm7YA8vI&t=97s
+
+• Unreal Engine 4 for Design Visualization, Shannon, T (2018), United States of America: Addison-Wesley
+
+• Virtus Learning Lab, on YouTube, accessible at; https://www.youtube.com/watch?v=w_j8BMg27u8
 ___
-
 
