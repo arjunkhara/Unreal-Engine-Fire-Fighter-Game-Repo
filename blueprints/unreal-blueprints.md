@@ -423,9 +423,8 @@ The team started with extra members, and ambitions were managed towards a develo
 <h4>Collaboration</h4>
 The project was managed through GitHub repositories; a primary and a backup repository were established to store and track all development and changes. Given the size of the group — two members — there was no room for any major setback and the team decided to backup all major assets to a second GitHub repository, with LFS enabled for quickly uploading large files. While building a project of this scale taxed the two members, discussions and agreements were swift. GitHub Desktop was used as the go-between software to mange the growing repository and a filing system with clear nomenclatures was also established. Blueprint files, for example, were uploaded into named folders, and every blueprint was photographed and recorded as an image in the documentation section of the repository, with accompanying explanations on the build process. This documentation formed the core reference for the team to manage each stage of the game’s scope and complexity.
 
-
-___
-
+<h4>Conclusion</h4>
+The end of the first term and its games project has produced a variety of insights and dilemmas into the discipline of producing a video game. It is interesting to note the synchronicity between modelling and reality – one requires perception, and the other, vision. This raises the possibilities of modelling not just for gaming applications but also as a socially-driven engine for virtual reality, narratives of art history, sociology and the implementation of the real versus realistic dichotomy in the entertainment business as a whole. In fact it is already difficult to define where a natural environment ends and a computational system begins. Modelling is one thing, but modelling specifically for a game requires two-fold thinking, in which the considerations lie not only in the object’s form and structure, but also with its function and performance as a game asset. The application of animations (movement, scaling, burning, appearing and disappearing) requires an approach that sets one eye on the task and the other on the potential to meet future tasks. The workflow in this case includes thinking from both ends of the spectrum to necessitate minimal disruption, when transferring these assets from one medium to another. This is a new experience for the team, one which will provide ample insight and training to meet the rigours of working in the computer games industry.
 
 <h4>References and Sources of Learning:</h4>
 
@@ -440,4 +439,6 @@ ___
 - Unreal Engine, on YouTube, accessible at: https://www.youtube.com/watch?v=pdjFm7YA8vI&t=97s
 
 - Virtus Learning Lab, on YouTube, accessible at; https://www.youtube.com/watch?v=w_j8BMg27u8
+___
+
 
