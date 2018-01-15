@@ -398,6 +398,16 @@ This is the shooter with a water projectile.  ![alt tag](https://github.com/arju
 This is the shooter with a fiery projectile. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide171.PNG "Fiery Powder Projectile")
 
 
+___
+
+# Final Game Report (Arjun Khara)
+
+<h4>Introduction</h4>
+This report forms a formal part of, and frequently references, the documentation and learnings recorded in my GitHub repository. ‘Haunted Hose’ (developed under the pseudonym ‘FireFighter’) is a video game, built and programmed entirely by two team members, Arjun Khara and Daniel Nicholson, for the final winter term projects at Goldsmiths College, University of London, to fulfil the requirements for two modules: Introduction to Programming, and Introduction to Modelling and Animation. The project is categorised as a serious game owing to  its additional characterising goals, beyond pure entertainment, of fire-safety education and awareness, specifically on suppressant types — water, carbon dioxide, and powder — used to combat various fires. The game was built on Unreal Engine 4 using a combination of Blueprints and direct C++ programming. Models and assets for the game were created using Maya and Blender, which were then imported into Unreal Engine as FBX objects and reconstructed for game use. Development commenced in mid-October 2017, and concluded in mid-January 2018 as a minimum viable product (MVP) to meet the assessment requirements for both of the modules.
+
+___
+
+
 <h4>References and Sources of Learning:</h4>
 
 - Dean Ashford, on YouTube, accessible at: https://www.youtube.com/watch?v=aE0EbWdnjTI
