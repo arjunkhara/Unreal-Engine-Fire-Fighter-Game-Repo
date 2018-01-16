@@ -401,6 +401,8 @@ I have also created a stormy water environment for the game, which flows in rapi
 
 This is the demonstration of the flowing water storming across the environment, from behind the player, and hitting the far wall ahead, which is on fire. The resulting steam adds to the effect. In the sky above the force field lines can be seen, giving the player an added hemmed in feel, commensurate with the panic of being trapped in a room on fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide173.PNG "Final Environment")
 
+In this stage I am building a welcome / start screen for players to interact with before gameplay commences. This screen is built using Blueprints and the UI Widgets tool directly within Unreal Engine 4. The artwork was done on Photoshop and Illustrator, then imported into Unreal Engine 4. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide174.PNG "Introduction Menu")
+
 
 ___
 
