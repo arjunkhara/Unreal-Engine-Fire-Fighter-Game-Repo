@@ -405,6 +405,8 @@ In this stage I am building a welcome / start screen for players to interact wit
 
 I have created an image placeholder and anchored it to the homescreen. In the step I will use the Brush option to select the pre-built image I have made for the splash screen. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide175.PNG "Splash Screen Placeholder")
 
+The background splash has been created and the image is within the placeholder. The next step will be to add in the button UI elements to begin the game / quit to main menu. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide176.PNG "Background Image")
+
 
 
 
