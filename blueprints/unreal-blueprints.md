@@ -407,6 +407,8 @@ I have created an image placeholder and anchored it to the homescreen. In the st
 
 The background splash has been created and the image is within the placeholder. The next step will be to add in the button UI elements to begin the game / quit to main menu. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide176.PNG "Background Image")
 
+These are the blueprints for the title screen, which will be removed when the player clicks ‘Start’. If the player clicks ‘Quit’ the game defaults back to the main start point; in development mode this is the editor screen, but in Launch mode it will quit the program and return to the desktop. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide177.PNG "Blueprints Background Image")
+
 
 
 
