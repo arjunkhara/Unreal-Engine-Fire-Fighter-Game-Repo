@@ -403,6 +403,10 @@ This is the demonstration of the flowing water storming across the environment, 
 
 In this stage I am building a welcome / start screen for players to interact with before gameplay commences. This screen is built using Blueprints and the UI Widgets tool directly within Unreal Engine 4. The artwork was done on Photoshop and Illustrator, then imported into Unreal Engine 4. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide174.PNG "Introduction Menu")
 
+I have created an image placeholder and anchored it to the homescreen. In the step I will use the Brush option to select the pre-built image I have made for the splash screen. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide175.PNG "Splash Screen Placeholder")
+
+
+
 
 ___
 
