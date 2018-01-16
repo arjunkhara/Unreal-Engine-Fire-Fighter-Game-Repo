@@ -399,7 +399,7 @@ This is the shooter with a fiery projectile. ![alt tag](https://github.com/arjun
 
 I have also created a stormy water environment for the game, which flows in rapidly from the outside and interacts with the fire to create steam. This is the blueprint for creating the stormy water texture for the floor of the environment. The blueprint instance allows for customisation of the speed and colour of the water as well as several parameters for fine-tuning. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide172.PNG "Stormy Water")
 
-
+This is the demonstration of the flowing water storming across the environment, from behind the player, and hitting the far wall ahead, which is on fire. The resulting steam adds to the effect. In the sky above the force field lines can be seen, giving the player an added hemmed in feel, commensurate with the panic of being trapped in a room on fire. ![alt tag](https://github.com/arjunkhara/FireFighterGame/blob/master/blueprints/unreal-blueprints-images-folder/Slide173.PNG "Final Environment")
 
 
 ___
