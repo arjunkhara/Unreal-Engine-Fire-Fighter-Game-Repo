@@ -88,7 +88,8 @@ In Unreal Engine, there are special objects for dialog construction, example the
 
 <strong>(COMPLETED) Sunday 14 January 2018</strong><br/>3. Arjun will add materials to the environment.<br/>4. Arjun will add night and day cycle.<br/>5. Arjun will add effects to the gun.<br/>
 
-<strong>Tuesday 16 January 2018</strong><br/>6. Dan will complete win conditions and begin debug.<br/>7. Arjun will complete UI effects and code integration.<br/>
+<strong>(COMPLETED) Tuesday 16 January 2018</strong><br/>6. Dan will complete win conditions and begin debug.<br/>7. Arjun will complete UI effects and code integration.<br/>
 
-<strong>Wednesday 17 January 2018</strong><br/>8. Dan and Arjun will meet at Goldsmiths to review the final game build.<br/>9. Dan and Arjun will deploy the game and review the YouTube demo reel.<br/>10. Dan and Arjun will combine their individual presentations into a team deck.
+<strong>(COMPLETED) Wednesday 17 January 2018</strong><br/>8. Dan and Arjun will meet at Goldsmiths to review the final game build.<br/>9. Dan and Arjun will deploy the game and review the YouTube demo reel.<br/>10. Dan and Arjun will combine their individual presentations into a team deck.
 
+<h4>Progress Report</h4>: The final game build has been completed according to schedule. Last minute debugging was carried out over the previous two days. Modelling assets have been optimised with one more pass, and the game mechanics have been tested for level 2, 3, and beyond for the game's progression after this initial MVP stage. Arjun Khara and Daniel Nicholson have built a game with just the two of us, and the game, in all its concepts and complexities, works, and works well.
