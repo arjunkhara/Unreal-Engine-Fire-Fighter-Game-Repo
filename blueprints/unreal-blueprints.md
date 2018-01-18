@@ -10,7 +10,7 @@ ___
 <strong>• Complete Programming Repository:</strong><br/> 
 https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo<br/>
 
-<strong>• Programming Repository Readme File, containing the Final Report:</strong><br/> 
+<strong>• Programming Repository Readme File, containing the Final Game Report (end of this document):</strong><br/> 
 https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints.md<br/>
 
 
@@ -18,12 +18,12 @@ https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/b
 <strong>• Complete 3D Modelling Repository:</strong><br/> 
 https://github.com/arjunkhara/3D-Modelling-Repo<br/>
 
-<strong>• 3D Modelling Repository Readme File, containing the Final Report:</strong><br/> 
+<strong>• 3D Modelling Repository Readme File, containing the Final Game Report:</strong><br/> 
 https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
 
 
 <h3>GITHUB REPOSITORIES HOMEPAGE</h3>
-<strong>• GitHub Repositories Homepage:</strong><br/> 
+<strong>• Complete GitHub Repositories Homepage:</strong><br/> 
 https://github.com/arjunkhara<br/>
 
 ___
