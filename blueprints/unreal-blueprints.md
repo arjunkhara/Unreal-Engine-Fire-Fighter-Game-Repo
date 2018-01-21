@@ -26,6 +26,11 @@ https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
 <strong>• Complete GitHub Repositories Homepage:</strong><br/> 
 https://github.com/arjunkhara<br/>
 
+
+<h3>GAME DEMO & PLAY-THROUGH YOUTUBE</h3>
+<strong>• Game demo and quick play-through on YouTube:</strong><br/> 
+https://youtu.be/9MxDqQASxD8
+
 ___
 
 <h2>Unreal Engine and Blueprints: Section 1</h2>
