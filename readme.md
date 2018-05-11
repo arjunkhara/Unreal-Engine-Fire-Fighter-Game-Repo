@@ -1,35 +1,6 @@
 # FireFighterGame: Project Management Log
 
 ___
-
-<h2>LINKS TO GAMES PROGRAMMING + 3D-MODELLING REPOSITORIES</h2>
-
-<h3>PROGRAMMING REPOSITORY</h3>
-<strong>• Complete Programming Repository:</strong><br/> 
-https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo<br/>
-
-<strong>• Programming Repository Readme File, containing the Project Final Report:</strong><br/> 
-https://github.com/arjunkhara/Unreal-Engine-Fire-Fighter-Game-Repo/blob/master/blueprints/unreal-blueprints.md<br/>
-
-
-<h3>3D-MODELLING REPOSITORY</h3>
-<strong>• Complete 3D Modelling Repository:</strong><br/> 
-https://github.com/arjunkhara/3D-Modelling-Repo<br/>
-
-<strong>• 3D Modelling Repository Readme File, containing the Project Final Report:</strong><br/> 
-https://github.com/arjunkhara/3D-Modelling-Repo/blob/master/README.md<br/>
-
-
-<h3>GITHUB REPOSITORIES HOMEPAGE</h3>
-<strong>• GitHub Repositories Homepage:</strong><br/> 
-https://github.com/arjunkhara<br/>
-
-
-<h3>YOUTUBE GAME DEMO & PLAY-THROUGH</h3>
-<strong>• Game demo and quick play-through on YouTube:</strong><br/> 
-https://youtu.be/9MxDqQASxD8
-
-___
 <h1>DOCUMENTING GAMES-BUILDING PROGRESS IN UNREAL ENGINE</h1>
 
 Hello. I’m Arjun Khara, a student at Goldsmiths College, University of London. This is my introduction to Unreal Engine. As this is my first time using any games-engine software, I will be documenting all my learnings with Unreal Engine (UE) for the purposes of the module, as well as to provide a rudimentary introduction to future students of this module who, like me, have no experience with game engines but want to learn as much and as quickly as possible.
